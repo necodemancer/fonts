@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Kalnia';
+    src: url('./Kalnia-Thin.woff2') format('woff2'),
+         url('./Kalnia-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalnia';
+    src: url('./Kalnia-ExtraLight.woff2') format('woff2'),
+         url('./Kalnia-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalnia';
+    src: url('./Kalnia-Light.woff2') format('woff2'),
+         url('./Kalnia-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalnia';
+    src: url('./Kalnia-Regular.woff2') format('woff2'),
+         url('./Kalnia-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalnia';
+    src: url('./Kalnia-Medium.woff2') format('woff2'),
+         url('./Kalnia-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalnia';
+    src: url('./Kalnia-SemiBold.woff2') format('woff2'),
+         url('./Kalnia-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalnia';
+    src: url('./Kalnia-Bold.woff2') format('woff2'),
+         url('./Kalnia-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
