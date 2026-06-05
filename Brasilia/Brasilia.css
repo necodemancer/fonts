@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Brasilia Extended';
+    src: url('./BrasiliaExtended.woff2') format('woff2'),
+        url('./BrasiliaExtended.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brasilia Short II';
+    src: url('./BrasiliaShortII.woff2') format('woff2'),
+        url('./BrasiliaShortII.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brasilia Short';
+    src: url('./BrasiliaShort.woff2') format('woff2'),
+        url('./BrasiliaShort.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brasilia';
+    src: url('./BrasiliaThin.woff2') format('woff2'),
+        url('./BrasiliaThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brasilia';
+    src: url('./Brasilia.woff2') format('woff2'),
+        url('./Brasilia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Bigfat gothic';
+    src: url('./Bigfatgothic-Regular.woff2') format('woff2'),
+        url('./Bigfatgothic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

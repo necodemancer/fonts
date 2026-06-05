@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Bentoga';
+    src: url('./BentogaItalic-Thin.eot');
+    src: url('./BentogaItalic-Thin.eot?#iefix') format('embedded-opentype'),
+         url('./BentogaItalic-Thin.woff2') format('woff2'),
+         url('./BentogaItalic-Thin.woff') format('woff'),
+         url('./BentogaItalic-Thin.ttf') format('truetype'),
+         url('./BentogaItalic-Thin.svg#BentogaItalic-Thin') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bentoga';
+    src: url('./Bentoga-Thin.eot');
+    src: url('./Bentoga-Thin.eot?#iefix') format('embedded-opentype'),
+         url('./Bentoga-Thin.woff2') format('woff2'),
+         url('./Bentoga-Thin.woff') format('woff'),
+         url('./Bentoga-Thin.ttf') format('truetype'),
+         url('./Bentoga-Thin.svg#Bentoga-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
