@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'AromaticDream-Regular';
+    src: url('./AromaticDream-Regular.woff2') format('woff2'),
+         url('./AromaticDream-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AromaticDream-Slanted';
+    src: url('./AromaticDream-Slanted.woff2') format('woff2'),
+         url('./AromaticDream-Slanted.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

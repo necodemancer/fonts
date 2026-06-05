@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AveburyW01';
+    src: url('./AveburyW01-Black.woff2') format('woff2'),
+        url('./AveburyW01-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

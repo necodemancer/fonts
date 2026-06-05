@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Barloesius Schrift';
+    src: url('./BarloesiusSchrift.woff2') format('woff2'),
+        url('./BarloesiusSchrift.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

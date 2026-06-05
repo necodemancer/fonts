@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Al Ragas';
+    src: url('./Al_Ragas.eot');
+    src: url('./Al_Ragas.eot?#iefix') format('embedded-opentype'),
+         url('./Al_Ragas.woff2') format('woff2'),
+         url('./Al_Ragas.woff') format('woff'),
+         url('./Al_Ragas.ttf') format('truetype'),
+         url('./Al_Ragas.svg#Al_Ragas') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Basilisk Free';
+    src: url(',/BasiliskFree.woff2') format('woff2'),
+        url(',/BasiliskFree.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
