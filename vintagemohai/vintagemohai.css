@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Vintage Mohai - Demo Version';
+    src: url('./VintageMohai.woff2') format('woff2'),
+        url('./VintageMohai.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
