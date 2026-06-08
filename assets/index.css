@@ -19,6 +19,10 @@ body {
     margin-bottom: 15px;
 }
 
+h2 {
+    width:100%;
+}
+
 /* MAIN WRAPPER */
 .controls {
     display: flex;
