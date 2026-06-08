@@ -95,12 +95,20 @@ function render(fonts) {
             `;
         }).join('');
 
+        const licenseLabel = {
+            commercial: "Free for commercial use",
+            personal: "Free for personal use",
+            unknown: "Unknown license"
+        }[font.license] || "Unknown license";
+
         container.insertAdjacentHTML('beforeend', `
             <article class="font-card">
 
                 <div class="font-header">
                     <div class="font-name">${font.family}</div>
-                    <div class="license">${font.license || 'unknown'}</div>
+                    <div class="license license-${font.license}">
+                        ${licenseLabel}
+                    </div>
                 </div>
 
                 <div class="preview"
