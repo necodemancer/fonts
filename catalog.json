@@ -154,6 +154,48 @@
     ]
   },
   {
+    "family": "areminiscentsmile",
+    "license": "commercial",
+    "tags": [
+      "serif",
+      "elegant",
+      "contemporary"
+    ],
+    "projects": [
+      "Champagne Problems"
+    ],
+    "variants": [
+      {
+        "name": "areminiscentsmile",
+        "weight": "400",
+        "style": "normal",
+        "folder": "areminiscentsmile",
+        "css": "areminiscentsmile.css"
+      },
+      {
+        "name": "areminiscentsmile",
+        "weight": "400",
+        "style": "italic",
+        "folder": "areminiscentsmile",
+        "css": "areminiscentsmile.css"
+      },
+      {
+        "name": "areminiscentsmile",
+        "weight": "100",
+        "style": "normal",
+        "folder": "areminiscentsmile",
+        "css": "areminiscentsmile.css"
+      },
+      {
+        "name": "areminiscentsmile",
+        "weight": "100",
+        "style": "italic",
+        "folder": "areminiscentsmile",
+        "css": "areminiscentsmile.css"
+      }
+    ]
+  },
+  {
     "family": "AromaticDream-Regular",
     "license": "unknown",
     "tags": [],
