@@ -1,49 +1,136 @@
 import os
 import json
 import re
+from collections import defaultdict
 
+# ----------------------------
+# PATH SETUP (GitHub Actions safe)
+# ----------------------------
 BASE_DIR = os.getcwd()
+ROOT = BASE_DIR
+
+# ----------------------------
+# HELPERS
+# ----------------------------
 
 def extract_font_families(css_text):
+    # captures: font-family: 'Name';
     return re.findall(r"font-family\s*:\s*['\"]([^'\"]+)['\"]", css_text)
 
-catalog = []
 
-for folder in os.listdir(BASE_DIR):
-    path = os.path.join(BASE_DIR, folder)
+def extract_font_weights(css_text):
+    return re.findall(r"font-weight\s*:\s*([^;]+)", css_text)
+
+
+def extract_font_styles(css_text):
+    return re.findall(r"font-style\s*:\s*([^;]+)", css_text)
+
+
+def normalize_weight(w):
+    if not w:
+        return "400"
+
+    w = w.strip().lower()
+
+    mapping = {
+        "thin": "100",
+        "extralight": "200",
+        "ultralight": "200",
+        "light": "300",
+        "normal": "400",
+        "regular": "400",
+        "medium": "500",
+        "semibold": "600",
+        "demibold": "600",
+        "bold": "700",
+        "extrabold": "800",
+        "ultrabold": "800",
+        "black": "900",
+        "heavy": "900",
+    }
+
+    return mapping.get(w, w)
+
+
+# ----------------------------
+# DATA STRUCTURE
+# ----------------------------
+
+families = defaultdict(lambda: {
+    "family": "",
+    "license": "unknown",
+    "variants": []
+})
+
+# ----------------------------
+# MAIN LOOP
+# ----------------------------
+
+for folder in os.listdir(ROOT):
+    path = os.path.join(ROOT, folder)
 
     if not os.path.isdir(path):
         continue
 
-    css_file = None
-    for f in os.listdir(path):
-        if f.endswith(".css"):
-            css_file = f
-            break
-
-    if not css_file:
+    css_files = [f for f in os.listdir(path) if f.endswith(".css")]
+    if not css_files:
         continue
 
+    css_file = css_files[0]
     css_path = os.path.join(path, css_file)
+
+    info_path = os.path.join(path, "info.json")
+
+    # default metadata
+    license_type = "unknown"
+
+    if os.path.exists(info_path):
+        try:
+            with open(info_path, "r", encoding="utf-8") as f:
+                meta = json.load(f)
+                license_type = meta.get("license", "unknown")
+        except Exception:
+            pass
 
     with open(css_path, "r", encoding="utf-8") as f:
         css_text = f.read()
 
-    families = extract_font_families(css_text)
+    font_families = extract_font_families(css_text)
+    weights = extract_font_weights(css_text)
+    styles = extract_font_styles(css_text)
 
-    # fallback if CSS is weird
-    if not families:
-        families = [folder.replace("-", " ").title()]
+    # fallback
+    if not font_families:
+        font_families = [folder.replace("-", " ").title()]
 
-    for family in families:
-        catalog.append({
-            "name": family,
-            "fontFamily": family,
+    weight = normalize_weight(weights[0]) if weights else "400"
+    style = styles[0].strip() if styles else "normal"
+
+    for fam in font_families:
+
+        group = families[fam]
+        group["family"] = fam
+        group["license"] = license_type
+
+        variant = {
+            "name": fam,
+            "weight": weight,
+            "style": style,
             "folder": folder,
-            "css": css_file,
-        })
+            "css": css_file
+        }
 
-catalog.sort(key=lambda x: x["name"].lower())
+        group["variants"].append(variant)
 
-with open("catalog.json", "w", encoding="utf-8") as f:
+# ----------------------------
+# OUTPUT
+# ----------------------------
+
+catalog = list(families.values())
+
+catalog.sort(key=lambda x: x["family"].lower())
+
+with open(os.path.join(ROOT, "catalog.json"), "w", encoding="utf-8") as f:
     json.dump(catalog, f, indent=2, ensure_ascii=False)
+
+print(f"Generated {len(catalog)} font families")
