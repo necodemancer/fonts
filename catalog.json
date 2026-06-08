@@ -1,371 +1,578 @@
 [
   {
-    "folder": "bezmiar",
-    "name": "Bezmiar",
-    "css": "Bezmiar.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "bounded",
-    "name": "Bounded",
-    "css": "bounded.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "adieu",
-    "name": "Adieu",
-    "css": "adieu.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Arsenica",
-    "name": "Arsenica",
-    "css": "arsenica.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "bigfat gothic",
-    "name": "Bigfat Gothic",
-    "css": "bigfatgothic.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Lokampwow",
-    "name": "Lokampwow",
-    "css": "Lokampwow.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "ictavantgardegothic",
-    "name": "Ictavantgardegothic",
-    "css": "itcavantgardegothic.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Adogare",
-    "name": "Adogare",
-    "css": "Adogare.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Andes",
-    "name": "Andes",
-    "css": "Andes.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Chamuyo",
-    "name": "Chamuyo",
-    "css": "Chamuyo.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Akt",
-    "name": "Akt",
-    "css": "Akt.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "bentoga",
-    "name": "Bentoga",
-    "css": "bentoga.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Brasilia",
-    "name": "Brasilia",
-    "css": "Brasilia.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Calton",
-    "name": "Calton",
-    "css": "CaltonEleganceSans.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "calora",
-    "name": "Calora",
-    "css": "calora.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "neulis",
-    "name": "Neulis",
-    "css": "neulis.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "audex",
-    "name": "Audex",
-    "css": "audex.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "vintagemohai",
-    "name": "Vintagemohai",
-    "css": "vintagemohai.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Astral Mono",
-    "name": "Astral Mono",
-    "css": "AstralMono.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Autobahn",
-    "name": "Autobahn",
-    "css": "Autobahn.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Capo Rose",
-    "name": "Capo Rose",
-    "css": "capo_rose.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "basilisk",
-    "name": "Basilisk",
-    "css": "Basilisk.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Bungasai",
-    "name": "Bungasai",
-    "css": "Bungasai.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Butler",
-    "name": "Butler",
-    "css": "Butler.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "kalnia",
-    "name": "Kalnia",
-    "css": "kalnia.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Avebury Black",
-    "name": "Avebury Black",
-    "css": "AveburyBlack.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "California Sun",
-    "name": "California Sun",
-    "css": "californiasun.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "CaslonAntique",
-    "name": "Caslonantique",
-    "css": "CaslonAntique.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Capo Decoro",
-    "name": "Capo Decoro",
-    "css": "capo_decoro.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "StretchPro",
-    "name": "Stretchpro",
-    "css": "stretchpro.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Blackout",
-    "name": "Blackout",
-    "css": "Blackout.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "caponodi",
-    "name": "Caponodi",
-    "css": "caponodi.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "alragas",
-    "name": "Alragas",
-    "css": "alragas.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "Against",
-    "name": "Against",
-    "css": "against.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "vandenbroucke",
-    "name": "Vandenbroucke",
-    "css": "vandenbroucke.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "clashdisplay",
-    "name": "Clashdisplay",
-    "css": "clashdisplay-variable.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
-  },
-  {
-    "folder": "absolute",
     "name": "Absolute",
-    "css": "absolute.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
+    "fontFamily": "Absolute",
+    "folder": "absolute",
+    "css": "absolute.css"
   },
   {
-    "folder": "baunk",
-    "name": "Baunk",
-    "css": "Baunk.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
+    "name": "Adieu",
+    "fontFamily": "Adieu",
+    "folder": "adieu",
+    "css": "adieu.css"
   },
   {
+    "name": "Adogare",
+    "fontFamily": "Adogare",
+    "folder": "Adogare",
+    "css": "Adogare.css"
+  },
+  {
+    "name": "against",
+    "fontFamily": "against",
+    "folder": "Against",
+    "css": "against.css"
+  },
+  {
+    "name": "Akt",
+    "fontFamily": "Akt",
+    "folder": "Akt",
+    "css": "Akt.css"
+  },
+  {
+    "name": "Akt",
+    "fontFamily": "Akt",
+    "folder": "Akt",
+    "css": "Akt.css"
+  },
+  {
+    "name": "Akt",
+    "fontFamily": "Akt",
+    "folder": "Akt",
+    "css": "Akt.css"
+  },
+  {
+    "name": "Akt",
+    "fontFamily": "Akt",
+    "folder": "Akt",
+    "css": "Akt.css"
+  },
+  {
+    "name": "Akt",
+    "fontFamily": "Akt",
+    "folder": "Akt",
+    "css": "Akt.css"
+  },
+  {
+    "name": "Akt",
+    "fontFamily": "Akt",
+    "folder": "Akt",
+    "css": "Akt.css"
+  },
+  {
+    "name": "Akt",
+    "fontFamily": "Akt",
+    "folder": "Akt",
+    "css": "Akt.css"
+  },
+  {
+    "name": "Akt",
+    "fontFamily": "Akt",
+    "folder": "Akt",
+    "css": "Akt.css"
+  },
+  {
+    "name": "Al Ragas",
+    "fontFamily": "Al Ragas",
+    "folder": "alragas",
+    "css": "alragas.css"
+  },
+  {
+    "name": "Andes",
+    "fontFamily": "Andes",
+    "folder": "Andes",
+    "css": "Andes.css"
+  },
+  {
+    "name": "AromaticDream-Regular",
+    "fontFamily": "AromaticDream-Regular",
     "folder": "AromaticDream",
-    "name": "Aromaticdream",
-    "css": "AromaticDream.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
+    "css": "AromaticDream.css"
   },
   {
-    "folder": "Barloesius Schrift",
-    "name": "Barloesius Schrift",
-    "css": "BarloesiusSchrift.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
+    "name": "AromaticDream-Slanted",
+    "fontFamily": "AromaticDream-Slanted",
+    "folder": "AromaticDream",
+    "css": "AromaticDream.css"
   },
   {
-    "folder": "assets",
+    "name": "Arsenica",
+    "fontFamily": "Arsenica",
+    "folder": "Arsenica",
+    "css": "arsenica.css"
+  },
+  {
+    "name": "Arsenica",
+    "fontFamily": "Arsenica",
+    "folder": "Arsenica",
+    "css": "arsenica.css"
+  },
+  {
+    "name": "Arsenica",
+    "fontFamily": "Arsenica",
+    "folder": "Arsenica",
+    "css": "arsenica.css"
+  },
+  {
+    "name": "Arsenica",
+    "fontFamily": "Arsenica",
+    "folder": "Arsenica",
+    "css": "arsenica.css"
+  },
+  {
     "name": "Assets",
-    "css": "index.css",
-    "license": "",
-    "projects": [],
-    "tags": [],
-    "preview": "The quick brown fox jumps over the lazy dog"
+    "fontFamily": "Assets",
+    "folder": "assets",
+    "css": "index.css"
+  },
+  {
+    "name": "Astral Mono",
+    "fontFamily": "Astral Mono",
+    "folder": "Astral Mono",
+    "css": "AstralMono.css"
+  },
+  {
+    "name": "Audex",
+    "fontFamily": "Audex",
+    "folder": "audex",
+    "css": "audex.css"
+  },
+  {
+    "name": "Audex",
+    "fontFamily": "Audex",
+    "folder": "audex",
+    "css": "audex.css"
+  },
+  {
+    "name": "Autobahn",
+    "fontFamily": "Autobahn",
+    "folder": "Autobahn",
+    "css": "Autobahn.css"
+  },
+  {
+    "name": "AveburyW01",
+    "fontFamily": "AveburyW01",
+    "folder": "Avebury Black",
+    "css": "AveburyBlack.css"
+  },
+  {
+    "name": "Barloesius Schrift",
+    "fontFamily": "Barloesius Schrift",
+    "folder": "Barloesius Schrift",
+    "css": "BarloesiusSchrift.css"
+  },
+  {
+    "name": "Basilisk Free",
+    "fontFamily": "Basilisk Free",
+    "folder": "basilisk",
+    "css": "Basilisk.css"
+  },
+  {
+    "name": "Baunk",
+    "fontFamily": "Baunk",
+    "folder": "baunk",
+    "css": "Baunk.css"
+  },
+  {
+    "name": "Bentoga",
+    "fontFamily": "Bentoga",
+    "folder": "bentoga",
+    "css": "bentoga.css"
+  },
+  {
+    "name": "Bentoga",
+    "fontFamily": "Bentoga",
+    "folder": "bentoga",
+    "css": "bentoga.css"
+  },
+  {
+    "name": "Bezmiar",
+    "fontFamily": "Bezmiar",
+    "folder": "bezmiar",
+    "css": "Bezmiar.css"
+  },
+  {
+    "name": "Bigfat gothic",
+    "fontFamily": "Bigfat gothic",
+    "folder": "bigfat gothic",
+    "css": "bigfatgothic.css"
+  },
+  {
+    "name": "Blackout",
+    "fontFamily": "Blackout",
+    "folder": "Blackout",
+    "css": "Blackout.css"
+  },
+  {
+    "name": "Bounded",
+    "fontFamily": "Bounded",
+    "folder": "bounded",
+    "css": "bounded.css"
+  },
+  {
+    "name": "Bounded",
+    "fontFamily": "Bounded",
+    "folder": "bounded",
+    "css": "bounded.css"
+  },
+  {
+    "name": "Bounded",
+    "fontFamily": "Bounded",
+    "folder": "bounded",
+    "css": "bounded.css"
+  },
+  {
+    "name": "Brasilia",
+    "fontFamily": "Brasilia",
+    "folder": "Brasilia",
+    "css": "Brasilia.css"
+  },
+  {
+    "name": "Brasilia",
+    "fontFamily": "Brasilia",
+    "folder": "Brasilia",
+    "css": "Brasilia.css"
+  },
+  {
+    "name": "Brasilia Extended",
+    "fontFamily": "Brasilia Extended",
+    "folder": "Brasilia",
+    "css": "Brasilia.css"
+  },
+  {
+    "name": "Brasilia Short",
+    "fontFamily": "Brasilia Short",
+    "folder": "Brasilia",
+    "css": "Brasilia.css"
+  },
+  {
+    "name": "Brasilia Short II",
+    "fontFamily": "Brasilia Short II",
+    "folder": "Brasilia",
+    "css": "Brasilia.css"
+  },
+  {
+    "name": "Bungasai",
+    "fontFamily": "Bungasai",
+    "folder": "Bungasai",
+    "css": "Bungasai.css"
+  },
+  {
+    "name": "Butler",
+    "fontFamily": "Butler",
+    "folder": "Butler",
+    "css": "Butler.css"
+  },
+  {
+    "name": "Butler",
+    "fontFamily": "Butler",
+    "folder": "Butler",
+    "css": "Butler.css"
+  },
+  {
+    "name": "Butler",
+    "fontFamily": "Butler",
+    "folder": "Butler",
+    "css": "Butler.css"
+  },
+  {
+    "name": "Butler",
+    "fontFamily": "Butler",
+    "folder": "Butler",
+    "css": "Butler.css"
+  },
+  {
+    "name": "Butler Stencil",
+    "fontFamily": "Butler Stencil",
+    "folder": "Butler",
+    "css": "Butler.css"
+  },
+  {
+    "name": "Butler Stencil",
+    "fontFamily": "Butler Stencil",
+    "folder": "Butler",
+    "css": "Butler.css"
+  },
+  {
+    "name": "Butler Stencil",
+    "fontFamily": "Butler Stencil",
+    "folder": "Butler",
+    "css": "Butler.css"
+  },
+  {
+    "name": "Butler Stencil",
+    "fontFamily": "Butler Stencil",
+    "folder": "Butler",
+    "css": "Butler.css"
+  },
+  {
+    "name": "California Sun",
+    "fontFamily": "California Sun",
+    "folder": "California Sun",
+    "css": "californiasun.css"
+  },
+  {
+    "name": "California Sun",
+    "fontFamily": "California Sun",
+    "folder": "California Sun",
+    "css": "californiasun.css"
+  },
+  {
+    "name": "Calora",
+    "fontFamily": "Calora",
+    "folder": "calora",
+    "css": "calora.css"
+  },
+  {
+    "name": "Calora",
+    "fontFamily": "Calora",
+    "folder": "calora",
+    "css": "calora.css"
+  },
+  {
+    "name": "Calton Elegance Sans",
+    "fontFamily": "Calton Elegance Sans",
+    "folder": "Calton",
+    "css": "CaltonEleganceSans.css"
+  },
+  {
+    "name": "Calton Elegance Sans",
+    "fontFamily": "Calton Elegance Sans",
+    "folder": "Calton",
+    "css": "CaltonEleganceSans.css"
+  },
+  {
+    "name": "Capo Decoro",
+    "fontFamily": "Capo Decoro",
+    "folder": "Capo Decoro",
+    "css": "capo_decoro.css"
+  },
+  {
+    "name": "Capo Nodi",
+    "fontFamily": "Capo Nodi",
+    "folder": "caponodi",
+    "css": "caponodi.css"
+  },
+  {
+    "name": "Capo Rose",
+    "fontFamily": "Capo Rose",
+    "folder": "Capo Rose",
+    "css": "capo_rose.css"
+  },
+  {
+    "name": "Caslon Antique",
+    "fontFamily": "Caslon Antique",
+    "folder": "CaslonAntique",
+    "css": "CaslonAntique.css"
+  },
+  {
+    "name": "Caslon Antique",
+    "fontFamily": "Caslon Antique",
+    "folder": "CaslonAntique",
+    "css": "CaslonAntique.css"
+  },
+  {
+    "name": "Caslon Antique",
+    "fontFamily": "Caslon Antique",
+    "folder": "CaslonAntique",
+    "css": "CaslonAntique.css"
+  },
+  {
+    "name": "Caslon Antique",
+    "fontFamily": "Caslon Antique",
+    "folder": "CaslonAntique",
+    "css": "CaslonAntique.css"
+  },
+  {
+    "name": "Chamuyo",
+    "fontFamily": "Chamuyo",
+    "folder": "Chamuyo",
+    "css": "Chamuyo.css"
+  },
+  {
+    "name": "Clash Display",
+    "fontFamily": "Clash Display",
+    "folder": "clashdisplay",
+    "css": "clashdisplay-variable.css"
+  },
+  {
+    "name": "ITC Avant Garde Gothic",
+    "fontFamily": "ITC Avant Garde Gothic",
+    "folder": "ictavantgardegothic",
+    "css": "itcavantgardegothic.css"
+  },
+  {
+    "name": "Kalnia",
+    "fontFamily": "Kalnia",
+    "folder": "kalnia",
+    "css": "kalnia.css"
+  },
+  {
+    "name": "Kalnia",
+    "fontFamily": "Kalnia",
+    "folder": "kalnia",
+    "css": "kalnia.css"
+  },
+  {
+    "name": "Kalnia",
+    "fontFamily": "Kalnia",
+    "folder": "kalnia",
+    "css": "kalnia.css"
+  },
+  {
+    "name": "Kalnia",
+    "fontFamily": "Kalnia",
+    "folder": "kalnia",
+    "css": "kalnia.css"
+  },
+  {
+    "name": "Kalnia",
+    "fontFamily": "Kalnia",
+    "folder": "kalnia",
+    "css": "kalnia.css"
+  },
+  {
+    "name": "Kalnia",
+    "fontFamily": "Kalnia",
+    "folder": "kalnia",
+    "css": "kalnia.css"
+  },
+  {
+    "name": "Kalnia",
+    "fontFamily": "Kalnia",
+    "folder": "kalnia",
+    "css": "kalnia.css"
+  },
+  {
+    "name": "Lokampwow",
+    "fontFamily": "Lokampwow",
+    "folder": "Lokampwow",
+    "css": "Lokampwow.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Neulis",
+    "fontFamily": "Neulis",
+    "folder": "neulis",
+    "css": "neulis.css"
+  },
+  {
+    "name": "Stretch Pro",
+    "fontFamily": "Stretch Pro",
+    "folder": "StretchPro",
+    "css": "stretchpro.css"
+  },
+  {
+    "name": "Vandenbroucke Franck",
+    "fontFamily": "Vandenbroucke Franck",
+    "folder": "vandenbroucke",
+    "css": "vandenbroucke.css"
+  },
+  {
+    "name": "Vintage Mohai - Demo Version",
+    "fontFamily": "Vintage Mohai - Demo Version",
+    "folder": "vintagemohai",
+    "css": "vintagemohai.css"
   }
 ]
