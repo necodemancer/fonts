@@ -714,13 +714,6 @@
       },
       {
         "name": "Caslon Antique",
-        "weight": "700",
-        "style": "italic",
-        "folder": "CaslonAntique",
-        "css": "CaslonAntique.css"
-      },
-      {
-        "name": "Caslon Antique",
         "weight": "400",
         "style": "italic",
         "folder": "CaslonAntique",
@@ -730,6 +723,13 @@
         "name": "Caslon Antique",
         "weight": "700",
         "style": "normal",
+        "folder": "CaslonAntique",
+        "css": "CaslonAntique.css"
+      },
+      {
+        "name": "Caslon Antique",
+        "weight": "700",
+        "style": "italic",
         "folder": "CaslonAntique",
         "css": "CaslonAntique.css"
       }
