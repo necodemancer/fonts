@@ -201,6 +201,14 @@ h2 {
     margin-top:15px;
 }
 
+.project-filter::after {
+  content:'(Comisión)';
+}
+
+:is([data-project="Finite Incantatem"])::after {
+  content:'(Payhip)';
+}
+
 @media (min-width: 900px) {
 
     .fonts {
