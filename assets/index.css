@@ -94,3 +94,24 @@ body {
     padding: 10px;
     background: #101010;
 }
+
+.variant-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.variant-btn {
+    padding: 4px 10px;
+    border: 1px solid #333;
+    background: #1b1b1b;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.variant-btn:hover {
+    background: #2a2a2a;
+}
