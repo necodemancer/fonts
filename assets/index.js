@@ -65,7 +65,7 @@ function render(fonts) {
 
         const projects = (font.projects || [])
             .map(p => `<span class="project">${p}</span>`)
-            .join('');
+            .join(', ');
 
         const cssLinks = [...new Set(font.variants.map(v => v.css))].map(css => {
             const v = font.variants.find(x => x.css === css);
@@ -134,7 +134,7 @@ function render(fonts) {
                 </div>
 
                 <div class="projects">
-                    <b>Projects:</b> ${projects || 'No project uses this font.'}
+                    <b>Projects:</b> ${projects || 'No project uses this font'}.
                 </div>
 
             </article>
