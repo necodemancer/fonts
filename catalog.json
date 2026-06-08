@@ -694,16 +694,13 @@
   },
   {
     "family": "Caslon Antique",
-    "license": "personal",
+    "license": "commercial",
     "tags": [
       "serif",
       "gothic",
       "vintage"
     ],
-    "projects": [
-      "Realum Tales",
-      "Opus"
-    ],
+    "projects": [],
     "variants": [
       {
         "name": "Caslon Antique",
