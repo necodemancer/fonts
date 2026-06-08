@@ -151,19 +151,20 @@ function render(groupedFonts) {
                         ${font.preview || 'The quick brown fox jumps over the lazy dog'}
                     </div>
 
-                    ${cssLinks}
-
                     <div class="variant-controls">
                         ${variantButtons}
                     </div>
 
-                    <div class="meta">
-                        ${tags}
+                    <div class="footer">
+                        <div class="projects">
+                            <b>Projects:</b> ${projects || 'No project uses this font'}.
+                        </div>
+                        <div class="meta">
+                            ${tags}
+                        </div>
                     </div>
 
-                    <div class="projects">
-                        <b>Projects:</b> ${projects || 'No project uses this font'}.
-                    </div>
+                    ${cssLinks}
 
                 </article>
             `);
