@@ -2,7 +2,7 @@ import os
 import json
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-ROOT = os.path.join(BASE_DIR, "fonts")
+ROOT = BASE_DIR
 
 catalog = []
 
