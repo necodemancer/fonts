@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #111;
+    color: #eee;
+    font-family: system-ui, sans-serif;
+    padding: 40px;
+}
+
+.hero {
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    margin-bottom: 15px;
+}
+
+#search {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 15px;
+    border: 1px solid #333;
+    background: #1b1b1b;
+    color: #fff;
+}
+
+.fonts {
+    display: grid;
+    gap: 20px;
+}
+
+.font-card {
+    border: 1px solid #222;
+    background: #181818;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.font-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.font-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.license {
+    font-size: .85rem;
+    opacity: .7;
+}
+
+.preview {
+    font-size: 2rem;
+    line-height: 1.3;
+    margin: 20px 0;
+}
+
+.meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.tag {
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #262626;
+    font-size: .8rem;
+}
+
+.projects {
+    margin-top: 10px;
+    font-size: .9rem;
+    opacity: .8;
+}
+
+.css-link {
+    margin-top: 15px;
+}
+
+.css-link code {
+    display: block;
+    overflow-x: auto;
+    padding: 10px;
+    background: #101010;
+}
