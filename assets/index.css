@@ -218,10 +218,10 @@ body {
     }
 
     #search {
-        flex: 0 0 300px;
+        flex: 1;
     }
 
     #filters {
-        flex: 1;
+        flex: 0 0 300px;
     }
 }
