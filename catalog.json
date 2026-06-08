@@ -16,8 +16,12 @@
   },
   {
     "family": "Adieu",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "sans-serif",
+      "modern",
+      "basic"
+    ],
     "projects": [],
     "variants": [
       {
