@@ -14,12 +14,10 @@ ROOT = BASE_DIR
 # ----------------------------
 
 def extract_font_faces(css_text):
-    """Extract full @font-face blocks"""
     return re.findall(r"@font-face\s*{[^}]+}", css_text, re.DOTALL)
 
 
 def parse_font_face(block):
-    """Parse a single @font-face block"""
     family = re.search(r"font-family\s*:\s*['\"]([^'\"]+)['\"]", block)
     weight = re.search(r"font-weight\s*:\s*([^;]+)", block)
     style = re.search(r"font-style\s*:\s*([^;]+)", block)
@@ -64,6 +62,8 @@ def normalize_weight(w):
 families = defaultdict(lambda: {
     "family": "",
     "license": "unknown",
+    "tags": [],
+    "projects": [],
     "variants": []
 })
 
@@ -86,46 +86,50 @@ for folder in os.listdir(ROOT):
 
     info_path = os.path.join(path, "info.json")
 
-    # default metadata
-    license_type = "unknown"
+    # ----------------------------
+    # SAFE META (ALWAYS DEFINED)
+    # ----------------------------
+    meta = {
+        "license": "unknown",
+        "tags": [],
+        "projects": []
+    }
 
     if os.path.exists(info_path):
         try:
             with open(info_path, "r", encoding="utf-8") as f:
-                meta = json.load(f)
-                license_type = meta.get("license", "unknown")
-                tags = meta.get("tags", [])
-                projects = meta.get("projects", [])
+                meta.update(json.load(f))
         except Exception:
             pass
+
+    license_type = meta.get("license", "unknown")
+    tags = meta.get("tags", [])
+    projects = meta.get("projects", [])
 
     with open(css_path, "r", encoding="utf-8") as f:
         css_text = f.read()
 
-    # ----------------------------
-    # FIXED: per @font-face parsing
-    # ----------------------------
     faces = extract_font_faces(css_text)
-    
+
     if not faces:
         continue
-    
+
     for face in faces:
-    
+
         data = parse_font_face(face)
-    
+
         if not data["family"]:
             continue
-    
+
         fam = data["family"]
-    
+
         group = families[fam]
-    
+
         group["family"] = fam
         group["license"] = license_type
         group["tags"] = tags
         group["projects"] = projects
-    
+
         variant = {
             "name": fam,
             "weight": normalize_weight(data["weight"]),
@@ -133,7 +137,7 @@ for folder in os.listdir(ROOT):
             "folder": folder,
             "css": css_file
         }
-    
+
         group["variants"].append(variant)
 
 # ----------------------------
