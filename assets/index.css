@@ -211,14 +211,14 @@ h2 {
 }
 
 .project-filter::after {
-  content:'(Comisión)';
+  content:'(Comission)';
 }
 
 :is([data-project="Blood upon the Snow"], [data-project="Finite Incantatem"], [data-project="Erelan"], [data-project="Violent Ends"], [data-project="Stereo Hearts"], [data-project="Elysium"], [data-project="Dark Souls"], [data-project="Champagne Problems"], [data-project="New Spring"], [data-project="Gueule du Loup"], [data-project="Appare Vestigium"], [data-project="Glass"])::after {
   content:'(Payhip)';
 }
 
-[data-project="Tablillas"]::after {
+:is([data-project="Free template"], [data-project="Free Template"], [data-project="Free page"], [data-project="Free Page"])::after {
 content:'';
 }
 
