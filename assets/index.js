@@ -33,16 +33,20 @@ fetch('./catalog.json')
 
 function loadFonts(fonts) {
 
+    const added = new Set();
+
     fonts.forEach(font => {
 
         font.variants.forEach(v => {
 
+            const key = `${v.folder}/${v.css}`;
+
+            if (added.has(key)) return;
+            added.add(key);
+
             const link = document.createElement('link');
-
             link.rel = 'stylesheet';
-
-            // IMPORTANT: correct path rebuild
-            link.href = `./${v.folder}/${v.css}`;
+            link.href = `./${key}`;
 
             document.head.appendChild(link);
         });
@@ -59,9 +63,28 @@ function render(fonts) {
             .map(t => `<span class="tag">${t}</span>`)
             .join('');
 
+        const cssLinks = [...new Set(font.variants.map(v => v.css))].map(css => {
+            const v = font.variants.find(x => x.css === css);
+        
+            return `
+                <div class="css-link">
+                    <code>https://necodemancer.github.io/fonts/${v.folder}/${css}</code>
+                </div>
+            `;
+        }).join('');
+
         const defaultVariant = font.variants[0];
 
-        const variantButtons = font.variants.map((v, i) => {
+        const seen = new Set();
+
+        const uniqueVariants = font.variants.filter(v => {
+            const key = `${v.weight}-${v.style}`;
+            if (seen.has(key)) return false;
+            seen.add(key);
+            return true;
+        });
+
+        const variantButtons = uniqueVariants.map(v => {
             return `
                 <button class="variant-btn"
                     data-family="${font.family}"
@@ -87,6 +110,8 @@ function render(fonts) {
                             font-style:${defaultVariant.style};">
                     ${font.preview || 'The quick brown fox jumps over the lazy dog'}
                 </div>
+
+                ${cssLinks}
 
                 <div class="variant-controls">
                     ${variantButtons}
