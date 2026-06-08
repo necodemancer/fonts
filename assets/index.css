@@ -19,6 +19,14 @@ body {
     margin-bottom: 15px;
 }
 
+.hero p {
+  font-size: .8rem;
+  margin-bottom: 20px;
+  & a {
+    color:#8d95c0;
+  }
+}
+
 h2 {
     grid-column:1/3;
 }
