@@ -121,12 +121,8 @@ for folder in os.listdir(ROOT):
     
         group["family"] = fam
         group["license"] = license_type
-    
-        # ---------------------------------
-        # FIX: attach metadata (tags/projects)
-        # ---------------------------------
-        group["tags"] = meta.get("tags", [])
-        group["projects"] = meta.get("projects", [])
+        group["tags"] = tags
+        group["projects"] = projects
     
         variant = {
             "name": fam,
