@@ -1,8 +1,11 @@
 [
   {
     "family": "Absolute",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "serif",
+      "fashion"
+    ],
     "projects": [],
     "variants": [
       {
