@@ -1,6 +1,10 @@
 const container = document.getElementById('fonts');
 const search = document.getElementById('search');
 
+let activeTag = null;
+let activeProject = null;
+let searchValue = '';
+
 let catalog = [];
 
 fetch('./catalog.json')
@@ -8,28 +12,68 @@ fetch('./catalog.json')
     .then(data => {
 
         catalog = data;
-
         loadFonts(data);
-        render(groupByLicense(data));
+        buildFilters(data);
+        applyFilters();
 
         search.addEventListener('input', () => {
-
-            const value = search.value.toLowerCase();
-
-            render(
-                catalog.filter(font => {
-
-                    return (
-                        font.name.toLowerCase().includes(value) ||
-                        (font.tags || []).join(' ').toLowerCase().includes(value)
-                    );
-
-                })
-            );
-
+            searchValue = search.value.toLowerCase();
+            applyFilters();
         });
 
     });
+
+function applyFilters() {
+
+    const filtered = catalog.filter(font => {
+
+        const matchesSearch =
+            font.family.toLowerCase().includes(searchValue);
+
+        const matchesTag =
+            !activeTag || (font.tags || []).includes(activeTag);
+
+        const matchesProject =
+            !activeProject || (font.projects || []).includes(activeProject);
+
+        return matchesSearch && matchesTag && matchesProject;
+    });
+
+    render(groupByLicense(filtered));
+}
+
+function buildFilters(fonts) {
+
+    const tagSet = new Set();
+    const projectSet = new Set();
+
+    fonts.forEach(f => {
+        (f.tags || []).forEach(t => tagSet.add(t));
+        (f.projects || []).forEach(p => projectSet.add(p));
+    });
+
+    const container = document.getElementById('filters');
+
+    container.innerHTML = `
+        <div class="filter-block">
+            <h3>Tags</h3>
+            ${[...tagSet].map(tag => `
+                <button class="tag-filter" data-tag="${tag}">
+                    ${tag}
+                </button>
+            `).join('')}
+        </div>
+
+        <div class="filter-block">
+            <h3>Projects</h3>
+            ${[...projectSet].map(p => `
+                <button class="project-filter" data-project="${p}">
+                    ${p}
+                </button>
+            `).join('')}
+        </div>
+    `;
+}
 
 function loadFonts(fonts) {
 
@@ -199,3 +243,21 @@ function attachVariantEvents() {
 
     });
 }
+
+document.addEventListener('click', e => {
+
+    if (e.target.classList.contains('tag-filter')) {
+        const tag = e.target.dataset.tag;
+        activeTag = (activeTag === tag) ? null : tag;
+    
+        applyFilters();
+    }
+
+    if (e.target.classList.contains('project-filter')) {
+        const p = e.target.dataset.project;
+        activeProject = (activeProject === p) ? null : p;
+    
+        applyFilters();
+    }
+
+});
