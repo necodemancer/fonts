@@ -1,578 +1,950 @@
 [
   {
-    "name": "Absolute",
-    "fontFamily": "Absolute",
-    "folder": "absolute",
-    "css": "absolute.css"
-  },
-  {
-    "name": "Adieu",
-    "fontFamily": "Adieu",
-    "folder": "adieu",
-    "css": "adieu.css"
-  },
-  {
-    "name": "Adogare",
-    "fontFamily": "Adogare",
-    "folder": "Adogare",
-    "css": "Adogare.css"
-  },
-  {
-    "name": "against",
-    "fontFamily": "against",
-    "folder": "Against",
-    "css": "against.css"
-  },
-  {
-    "name": "Akt",
-    "fontFamily": "Akt",
-    "folder": "Akt",
-    "css": "Akt.css"
-  },
-  {
-    "name": "Akt",
-    "fontFamily": "Akt",
-    "folder": "Akt",
-    "css": "Akt.css"
-  },
-  {
-    "name": "Akt",
-    "fontFamily": "Akt",
-    "folder": "Akt",
-    "css": "Akt.css"
-  },
-  {
-    "name": "Akt",
-    "fontFamily": "Akt",
-    "folder": "Akt",
-    "css": "Akt.css"
-  },
-  {
-    "name": "Akt",
-    "fontFamily": "Akt",
-    "folder": "Akt",
-    "css": "Akt.css"
-  },
-  {
-    "name": "Akt",
-    "fontFamily": "Akt",
-    "folder": "Akt",
-    "css": "Akt.css"
-  },
-  {
-    "name": "Akt",
-    "fontFamily": "Akt",
-    "folder": "Akt",
-    "css": "Akt.css"
-  },
-  {
-    "name": "Akt",
-    "fontFamily": "Akt",
-    "folder": "Akt",
-    "css": "Akt.css"
-  },
-  {
-    "name": "Al Ragas",
-    "fontFamily": "Al Ragas",
-    "folder": "alragas",
-    "css": "alragas.css"
-  },
-  {
-    "name": "Andes",
-    "fontFamily": "Andes",
-    "folder": "Andes",
-    "css": "Andes.css"
-  },
-  {
-    "name": "AromaticDream-Regular",
-    "fontFamily": "AromaticDream-Regular",
-    "folder": "AromaticDream",
-    "css": "AromaticDream.css"
-  },
-  {
-    "name": "AromaticDream-Slanted",
-    "fontFamily": "AromaticDream-Slanted",
-    "folder": "AromaticDream",
-    "css": "AromaticDream.css"
-  },
-  {
-    "name": "Arsenica",
-    "fontFamily": "Arsenica",
-    "folder": "Arsenica",
-    "css": "arsenica.css"
-  },
-  {
-    "name": "Arsenica",
-    "fontFamily": "Arsenica",
-    "folder": "Arsenica",
-    "css": "arsenica.css"
-  },
-  {
-    "name": "Arsenica",
-    "fontFamily": "Arsenica",
-    "folder": "Arsenica",
-    "css": "arsenica.css"
-  },
-  {
-    "name": "Arsenica",
-    "fontFamily": "Arsenica",
-    "folder": "Arsenica",
-    "css": "arsenica.css"
-  },
-  {
-    "name": "Assets",
-    "fontFamily": "Assets",
-    "folder": "assets",
-    "css": "index.css"
-  },
-  {
-    "name": "Astral Mono",
-    "fontFamily": "Astral Mono",
-    "folder": "Astral Mono",
-    "css": "AstralMono.css"
-  },
-  {
-    "name": "Audex",
-    "fontFamily": "Audex",
-    "folder": "audex",
-    "css": "audex.css"
-  },
-  {
-    "name": "Audex",
-    "fontFamily": "Audex",
-    "folder": "audex",
-    "css": "audex.css"
-  },
-  {
-    "name": "Autobahn",
-    "fontFamily": "Autobahn",
-    "folder": "Autobahn",
-    "css": "Autobahn.css"
-  },
-  {
-    "name": "AveburyW01",
-    "fontFamily": "AveburyW01",
-    "folder": "Avebury Black",
-    "css": "AveburyBlack.css"
-  },
-  {
-    "name": "Barloesius Schrift",
-    "fontFamily": "Barloesius Schrift",
-    "folder": "Barloesius Schrift",
-    "css": "BarloesiusSchrift.css"
-  },
-  {
-    "name": "Basilisk Free",
-    "fontFamily": "Basilisk Free",
-    "folder": "basilisk",
-    "css": "Basilisk.css"
-  },
-  {
-    "name": "Baunk",
-    "fontFamily": "Baunk",
-    "folder": "baunk",
-    "css": "Baunk.css"
-  },
-  {
-    "name": "Bentoga",
-    "fontFamily": "Bentoga",
-    "folder": "bentoga",
-    "css": "bentoga.css"
-  },
-  {
-    "name": "Bentoga",
-    "fontFamily": "Bentoga",
-    "folder": "bentoga",
-    "css": "bentoga.css"
-  },
-  {
-    "name": "Bezmiar",
-    "fontFamily": "Bezmiar",
-    "folder": "bezmiar",
-    "css": "Bezmiar.css"
-  },
-  {
-    "name": "Bigfat gothic",
-    "fontFamily": "Bigfat gothic",
-    "folder": "bigfat gothic",
-    "css": "bigfatgothic.css"
-  },
-  {
-    "name": "Blackout",
-    "fontFamily": "Blackout",
-    "folder": "Blackout",
-    "css": "Blackout.css"
-  },
-  {
-    "name": "Bounded",
-    "fontFamily": "Bounded",
-    "folder": "bounded",
-    "css": "bounded.css"
-  },
-  {
-    "name": "Bounded",
-    "fontFamily": "Bounded",
-    "folder": "bounded",
-    "css": "bounded.css"
-  },
-  {
-    "name": "Bounded",
-    "fontFamily": "Bounded",
-    "folder": "bounded",
-    "css": "bounded.css"
-  },
-  {
-    "name": "Brasilia",
-    "fontFamily": "Brasilia",
-    "folder": "Brasilia",
-    "css": "Brasilia.css"
-  },
-  {
-    "name": "Brasilia",
-    "fontFamily": "Brasilia",
-    "folder": "Brasilia",
-    "css": "Brasilia.css"
-  },
-  {
-    "name": "Brasilia Extended",
-    "fontFamily": "Brasilia Extended",
-    "folder": "Brasilia",
-    "css": "Brasilia.css"
-  },
-  {
-    "name": "Brasilia Short",
-    "fontFamily": "Brasilia Short",
-    "folder": "Brasilia",
-    "css": "Brasilia.css"
-  },
-  {
-    "name": "Brasilia Short II",
-    "fontFamily": "Brasilia Short II",
-    "folder": "Brasilia",
-    "css": "Brasilia.css"
-  },
-  {
-    "name": "Bungasai",
-    "fontFamily": "Bungasai",
-    "folder": "Bungasai",
-    "css": "Bungasai.css"
-  },
-  {
-    "name": "Butler",
-    "fontFamily": "Butler",
-    "folder": "Butler",
-    "css": "Butler.css"
-  },
-  {
-    "name": "Butler",
-    "fontFamily": "Butler",
-    "folder": "Butler",
-    "css": "Butler.css"
-  },
-  {
-    "name": "Butler",
-    "fontFamily": "Butler",
-    "folder": "Butler",
-    "css": "Butler.css"
-  },
-  {
-    "name": "Butler",
-    "fontFamily": "Butler",
-    "folder": "Butler",
-    "css": "Butler.css"
-  },
-  {
-    "name": "Butler Stencil",
-    "fontFamily": "Butler Stencil",
-    "folder": "Butler",
-    "css": "Butler.css"
-  },
-  {
-    "name": "Butler Stencil",
-    "fontFamily": "Butler Stencil",
-    "folder": "Butler",
-    "css": "Butler.css"
-  },
-  {
-    "name": "Butler Stencil",
-    "fontFamily": "Butler Stencil",
-    "folder": "Butler",
-    "css": "Butler.css"
-  },
-  {
-    "name": "Butler Stencil",
-    "fontFamily": "Butler Stencil",
-    "folder": "Butler",
-    "css": "Butler.css"
-  },
-  {
-    "name": "California Sun",
-    "fontFamily": "California Sun",
-    "folder": "California Sun",
-    "css": "californiasun.css"
-  },
-  {
-    "name": "California Sun",
-    "fontFamily": "California Sun",
-    "folder": "California Sun",
-    "css": "californiasun.css"
-  },
-  {
-    "name": "Calora",
-    "fontFamily": "Calora",
-    "folder": "calora",
-    "css": "calora.css"
-  },
-  {
-    "name": "Calora",
-    "fontFamily": "Calora",
-    "folder": "calora",
-    "css": "calora.css"
-  },
-  {
-    "name": "Calton Elegance Sans",
-    "fontFamily": "Calton Elegance Sans",
-    "folder": "Calton",
-    "css": "CaltonEleganceSans.css"
-  },
-  {
-    "name": "Calton Elegance Sans",
-    "fontFamily": "Calton Elegance Sans",
-    "folder": "Calton",
-    "css": "CaltonEleganceSans.css"
-  },
-  {
-    "name": "Capo Decoro",
-    "fontFamily": "Capo Decoro",
-    "folder": "Capo Decoro",
-    "css": "capo_decoro.css"
-  },
-  {
-    "name": "Capo Nodi",
-    "fontFamily": "Capo Nodi",
-    "folder": "caponodi",
-    "css": "caponodi.css"
-  },
-  {
-    "name": "Capo Rose",
-    "fontFamily": "Capo Rose",
-    "folder": "Capo Rose",
-    "css": "capo_rose.css"
-  },
-  {
-    "name": "Caslon Antique",
-    "fontFamily": "Caslon Antique",
-    "folder": "CaslonAntique",
-    "css": "CaslonAntique.css"
-  },
-  {
-    "name": "Caslon Antique",
-    "fontFamily": "Caslon Antique",
-    "folder": "CaslonAntique",
-    "css": "CaslonAntique.css"
-  },
-  {
-    "name": "Caslon Antique",
-    "fontFamily": "Caslon Antique",
-    "folder": "CaslonAntique",
-    "css": "CaslonAntique.css"
-  },
-  {
-    "name": "Caslon Antique",
-    "fontFamily": "Caslon Antique",
-    "folder": "CaslonAntique",
-    "css": "CaslonAntique.css"
-  },
-  {
-    "name": "Chamuyo",
-    "fontFamily": "Chamuyo",
-    "folder": "Chamuyo",
-    "css": "Chamuyo.css"
-  },
-  {
-    "name": "Clash Display",
-    "fontFamily": "Clash Display",
-    "folder": "clashdisplay",
-    "css": "clashdisplay-variable.css"
-  },
-  {
-    "name": "ITC Avant Garde Gothic",
-    "fontFamily": "ITC Avant Garde Gothic",
-    "folder": "ictavantgardegothic",
-    "css": "itcavantgardegothic.css"
-  },
-  {
-    "name": "Kalnia",
-    "fontFamily": "Kalnia",
-    "folder": "kalnia",
-    "css": "kalnia.css"
-  },
-  {
-    "name": "Kalnia",
-    "fontFamily": "Kalnia",
-    "folder": "kalnia",
-    "css": "kalnia.css"
-  },
-  {
-    "name": "Kalnia",
-    "fontFamily": "Kalnia",
-    "folder": "kalnia",
-    "css": "kalnia.css"
-  },
-  {
-    "name": "Kalnia",
-    "fontFamily": "Kalnia",
-    "folder": "kalnia",
-    "css": "kalnia.css"
-  },
-  {
-    "name": "Kalnia",
-    "fontFamily": "Kalnia",
-    "folder": "kalnia",
-    "css": "kalnia.css"
-  },
-  {
-    "name": "Kalnia",
-    "fontFamily": "Kalnia",
-    "folder": "kalnia",
-    "css": "kalnia.css"
-  },
-  {
-    "name": "Kalnia",
-    "fontFamily": "Kalnia",
-    "folder": "kalnia",
-    "css": "kalnia.css"
-  },
-  {
-    "name": "Lokampwow",
-    "fontFamily": "Lokampwow",
-    "folder": "Lokampwow",
-    "css": "Lokampwow.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Neulis",
-    "fontFamily": "Neulis",
-    "folder": "neulis",
-    "css": "neulis.css"
-  },
-  {
-    "name": "Stretch Pro",
-    "fontFamily": "Stretch Pro",
-    "folder": "StretchPro",
-    "css": "stretchpro.css"
-  },
-  {
-    "name": "Vandenbroucke Franck",
-    "fontFamily": "Vandenbroucke Franck",
-    "folder": "vandenbroucke",
-    "css": "vandenbroucke.css"
-  },
-  {
-    "name": "Vintage Mohai - Demo Version",
-    "fontFamily": "Vintage Mohai - Demo Version",
-    "folder": "vintagemohai",
-    "css": "vintagemohai.css"
+    "family": "Absolute",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Absolute",
+        "weight": "400",
+        "style": "normal",
+        "folder": "absolute",
+        "css": "absolute.css"
+      }
+    ]
+  },
+  {
+    "family": "Adieu",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Adieu",
+        "weight": "700",
+        "style": "normal",
+        "folder": "adieu",
+        "css": "adieu.css"
+      }
+    ]
+  },
+  {
+    "family": "Adogare",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Adogare",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Adogare",
+        "css": "Adogare.css"
+      }
+    ]
+  },
+  {
+    "family": "against",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "against",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Against",
+        "css": "against.css"
+      }
+    ]
+  },
+  {
+    "family": "Akt",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Akt",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Akt",
+        "css": "Akt.css"
+      },
+      {
+        "name": "Akt",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Akt",
+        "css": "Akt.css"
+      },
+      {
+        "name": "Akt",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Akt",
+        "css": "Akt.css"
+      },
+      {
+        "name": "Akt",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Akt",
+        "css": "Akt.css"
+      },
+      {
+        "name": "Akt",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Akt",
+        "css": "Akt.css"
+      },
+      {
+        "name": "Akt",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Akt",
+        "css": "Akt.css"
+      },
+      {
+        "name": "Akt",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Akt",
+        "css": "Akt.css"
+      },
+      {
+        "name": "Akt",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Akt",
+        "css": "Akt.css"
+      }
+    ]
+  },
+  {
+    "family": "Al Ragas",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Al Ragas",
+        "weight": "400",
+        "style": "normal",
+        "folder": "alragas",
+        "css": "alragas.css"
+      }
+    ]
+  },
+  {
+    "family": "Andes",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Andes",
+        "weight": "100",
+        "style": "normal",
+        "folder": "Andes",
+        "css": "Andes.css"
+      }
+    ]
+  },
+  {
+    "family": "AromaticDream-Regular",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "AromaticDream-Regular",
+        "weight": "400",
+        "style": "normal",
+        "folder": "AromaticDream",
+        "css": "AromaticDream.css"
+      }
+    ]
+  },
+  {
+    "family": "AromaticDream-Slanted",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "AromaticDream-Slanted",
+        "weight": "400",
+        "style": "normal",
+        "folder": "AromaticDream",
+        "css": "AromaticDream.css"
+      }
+    ]
+  },
+  {
+    "family": "Arsenica",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Arsenica",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Arsenica",
+        "css": "arsenica.css"
+      },
+      {
+        "name": "Arsenica",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Arsenica",
+        "css": "arsenica.css"
+      },
+      {
+        "name": "Arsenica",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Arsenica",
+        "css": "arsenica.css"
+      },
+      {
+        "name": "Arsenica",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Arsenica",
+        "css": "arsenica.css"
+      }
+    ]
+  },
+  {
+    "family": "Assets",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Assets",
+        "weight": "700",
+        "style": "normal",
+        "folder": "assets",
+        "css": "index.css"
+      }
+    ]
+  },
+  {
+    "family": "Astral Mono",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Astral Mono",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Astral Mono",
+        "css": "AstralMono.css"
+      }
+    ]
+  },
+  {
+    "family": "Audex",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Audex",
+        "weight": "400",
+        "style": "normal",
+        "folder": "audex",
+        "css": "audex.css"
+      },
+      {
+        "name": "Audex",
+        "weight": "400",
+        "style": "normal",
+        "folder": "audex",
+        "css": "audex.css"
+      }
+    ]
+  },
+  {
+    "family": "Autobahn",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Autobahn",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Autobahn",
+        "css": "Autobahn.css"
+      }
+    ]
+  },
+  {
+    "family": "AveburyW01",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "AveburyW01",
+        "weight": "900",
+        "style": "normal",
+        "folder": "Avebury Black",
+        "css": "AveburyBlack.css"
+      }
+    ]
+  },
+  {
+    "family": "Barloesius Schrift",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Barloesius Schrift",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Barloesius Schrift",
+        "css": "BarloesiusSchrift.css"
+      }
+    ]
+  },
+  {
+    "family": "Basilisk Free",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Basilisk Free",
+        "weight": "400",
+        "style": "normal",
+        "folder": "basilisk",
+        "css": "Basilisk.css"
+      }
+    ]
+  },
+  {
+    "family": "Baunk",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Baunk",
+        "weight": "400",
+        "style": "normal",
+        "folder": "baunk",
+        "css": "Baunk.css"
+      }
+    ]
+  },
+  {
+    "family": "Bentoga",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Bentoga",
+        "weight": "100",
+        "style": "italic",
+        "folder": "bentoga",
+        "css": "bentoga.css"
+      },
+      {
+        "name": "Bentoga",
+        "weight": "100",
+        "style": "italic",
+        "folder": "bentoga",
+        "css": "bentoga.css"
+      }
+    ]
+  },
+  {
+    "family": "Bezmiar",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Bezmiar",
+        "weight": "400",
+        "style": "normal",
+        "folder": "bezmiar",
+        "css": "Bezmiar.css"
+      }
+    ]
+  },
+  {
+    "family": "Bigfat gothic",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Bigfat gothic",
+        "weight": "400",
+        "style": "normal",
+        "folder": "bigfat gothic",
+        "css": "bigfatgothic.css"
+      }
+    ]
+  },
+  {
+    "family": "Blackout",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Blackout",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Blackout",
+        "css": "Blackout.css"
+      }
+    ]
+  },
+  {
+    "family": "Bounded",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Bounded",
+        "weight": "200",
+        "style": "normal",
+        "folder": "bounded",
+        "css": "bounded.css"
+      },
+      {
+        "name": "Bounded",
+        "weight": "200",
+        "style": "normal",
+        "folder": "bounded",
+        "css": "bounded.css"
+      },
+      {
+        "name": "Bounded",
+        "weight": "200",
+        "style": "normal",
+        "folder": "bounded",
+        "css": "bounded.css"
+      }
+    ]
+  },
+  {
+    "family": "Brasilia",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Brasilia",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Brasilia",
+        "css": "Brasilia.css"
+      },
+      {
+        "name": "Brasilia",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Brasilia",
+        "css": "Brasilia.css"
+      }
+    ]
+  },
+  {
+    "family": "Brasilia Extended",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Brasilia Extended",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Brasilia",
+        "css": "Brasilia.css"
+      }
+    ]
+  },
+  {
+    "family": "Brasilia Short",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Brasilia Short",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Brasilia",
+        "css": "Brasilia.css"
+      }
+    ]
+  },
+  {
+    "family": "Brasilia Short II",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Brasilia Short II",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Brasilia",
+        "css": "Brasilia.css"
+      }
+    ]
+  },
+  {
+    "family": "Bungasai",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Bungasai",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Bungasai",
+        "css": "Bungasai.css"
+      }
+    ]
+  },
+  {
+    "family": "Butler",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Butler",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Butler",
+        "css": "Butler.css"
+      },
+      {
+        "name": "Butler",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Butler",
+        "css": "Butler.css"
+      },
+      {
+        "name": "Butler",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Butler",
+        "css": "Butler.css"
+      },
+      {
+        "name": "Butler",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Butler",
+        "css": "Butler.css"
+      }
+    ]
+  },
+  {
+    "family": "Butler Stencil",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Butler Stencil",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Butler",
+        "css": "Butler.css"
+      },
+      {
+        "name": "Butler Stencil",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Butler",
+        "css": "Butler.css"
+      },
+      {
+        "name": "Butler Stencil",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Butler",
+        "css": "Butler.css"
+      },
+      {
+        "name": "Butler Stencil",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Butler",
+        "css": "Butler.css"
+      }
+    ]
+  },
+  {
+    "family": "California Sun",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "California Sun",
+        "weight": "400",
+        "style": "normal",
+        "folder": "California Sun",
+        "css": "californiasun.css"
+      },
+      {
+        "name": "California Sun",
+        "weight": "400",
+        "style": "normal",
+        "folder": "California Sun",
+        "css": "californiasun.css"
+      }
+    ]
+  },
+  {
+    "family": "Calora",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Calora",
+        "weight": "400",
+        "style": "italic",
+        "folder": "calora",
+        "css": "calora.css"
+      },
+      {
+        "name": "Calora",
+        "weight": "400",
+        "style": "italic",
+        "folder": "calora",
+        "css": "calora.css"
+      }
+    ]
+  },
+  {
+    "family": "Calton Elegance Sans",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Calton Elegance Sans",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Calton",
+        "css": "CaltonEleganceSans.css"
+      },
+      {
+        "name": "Calton Elegance Sans",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Calton",
+        "css": "CaltonEleganceSans.css"
+      }
+    ]
+  },
+  {
+    "family": "Capo Decoro",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Capo Decoro",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Capo Decoro",
+        "css": "capo_decoro.css"
+      }
+    ]
+  },
+  {
+    "family": "Capo Nodi",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Capo Nodi",
+        "weight": "400",
+        "style": "normal",
+        "folder": "caponodi",
+        "css": "caponodi.css"
+      }
+    ]
+  },
+  {
+    "family": "Capo Rose",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Capo Rose",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Capo Rose",
+        "css": "capo_rose.css"
+      }
+    ]
+  },
+  {
+    "family": "Caslon Antique",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Caslon Antique",
+        "weight": "400",
+        "style": "normal",
+        "folder": "CaslonAntique",
+        "css": "CaslonAntique.css"
+      },
+      {
+        "name": "Caslon Antique",
+        "weight": "400",
+        "style": "normal",
+        "folder": "CaslonAntique",
+        "css": "CaslonAntique.css"
+      },
+      {
+        "name": "Caslon Antique",
+        "weight": "400",
+        "style": "normal",
+        "folder": "CaslonAntique",
+        "css": "CaslonAntique.css"
+      },
+      {
+        "name": "Caslon Antique",
+        "weight": "400",
+        "style": "normal",
+        "folder": "CaslonAntique",
+        "css": "CaslonAntique.css"
+      }
+    ]
+  },
+  {
+    "family": "Chamuyo",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Chamuyo",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Chamuyo",
+        "css": "Chamuyo.css"
+      }
+    ]
+  },
+  {
+    "family": "Clash Display",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Clash Display",
+        "weight": "200 700",
+        "style": "normal",
+        "folder": "clashdisplay",
+        "css": "clashdisplay-variable.css"
+      }
+    ]
+  },
+  {
+    "family": "ITC Avant Garde Gothic",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "ITC Avant Garde Gothic",
+        "weight": "700",
+        "style": "normal",
+        "folder": "ictavantgardegothic",
+        "css": "itcavantgardegothic.css"
+      }
+    ]
+  },
+  {
+    "family": "Kalnia",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Kalnia",
+        "weight": "100",
+        "style": "normal",
+        "folder": "kalnia",
+        "css": "kalnia.css"
+      },
+      {
+        "name": "Kalnia",
+        "weight": "100",
+        "style": "normal",
+        "folder": "kalnia",
+        "css": "kalnia.css"
+      },
+      {
+        "name": "Kalnia",
+        "weight": "100",
+        "style": "normal",
+        "folder": "kalnia",
+        "css": "kalnia.css"
+      },
+      {
+        "name": "Kalnia",
+        "weight": "100",
+        "style": "normal",
+        "folder": "kalnia",
+        "css": "kalnia.css"
+      },
+      {
+        "name": "Kalnia",
+        "weight": "100",
+        "style": "normal",
+        "folder": "kalnia",
+        "css": "kalnia.css"
+      },
+      {
+        "name": "Kalnia",
+        "weight": "100",
+        "style": "normal",
+        "folder": "kalnia",
+        "css": "kalnia.css"
+      },
+      {
+        "name": "Kalnia",
+        "weight": "100",
+        "style": "normal",
+        "folder": "kalnia",
+        "css": "kalnia.css"
+      }
+    ]
+  },
+  {
+    "family": "Lokampwow",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Lokampwow",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Lokampwow",
+        "css": "Lokampwow.css"
+      }
+    ]
+  },
+  {
+    "family": "Neulis",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "100",
+        "style": "normal",
+        "folder": "neulis",
+        "css": "neulis.css"
+      }
+    ]
+  },
+  {
+    "family": "Stretch Pro",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Stretch Pro",
+        "weight": "400",
+        "style": "normal",
+        "folder": "StretchPro",
+        "css": "stretchpro.css"
+      }
+    ]
+  },
+  {
+    "family": "Vandenbroucke Franck",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Vandenbroucke Franck",
+        "weight": "400",
+        "style": "normal",
+        "folder": "vandenbroucke",
+        "css": "vandenbroucke.css"
+      }
+    ]
+  },
+  {
+    "family": "Vintage Mohai - Demo Version",
+    "license": "unknown",
+    "variants": [
+      {
+        "name": "Vintage Mohai - Demo Version",
+        "weight": "400",
+        "style": "normal",
+        "folder": "vintagemohai",
+        "css": "vintagemohai.css"
+      }
+    ]
   }
 ]
