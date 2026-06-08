@@ -67,99 +67,104 @@ function groupByLicense(fonts) {
     }, {});
 }
 
+const licenseLabelMap = {
+    commercial: "Free for commercial use",
+    personal: "Free for personal use",
+    unknown: "Unknown license"
+};
+
 function render(groupedFonts) {
+
     container.innerHTML = '';
 
-    Object.entries(groupedFonts).forEach(([license, fonts]) => {
+    const licenseOrder = Object.keys(licenseLabelMap);
 
-    container.insertAdjacentHTML('beforeend', `
-        <h2 class="license-section">${license}</h2>
-    `);
+    licenseOrder.forEach(license => {
+
+        const fonts = groupedFonts[license];
+        if (!fonts || fonts.length === 0) return;
+
+        container.insertAdjacentHTML('beforeend', `
+            <h2 class="license-section">
+                ${licenseLabelMap[license]}
+            </h2>
+        `);
 
         fonts.forEach(font => {
 
             const tags = (font.tags || [])
                 .map(t => `<span class="tag">${t}</span>`)
                 .join('');
-    
+
             const projects = (font.projects || [])
                 .map(p => `<span class="project">${p}</span>`)
                 .join(', ');
-    
-            const cssLinks = [...new Set(font.variants.map(v => v.css))].map(css => {
-                const v = font.variants.find(x => x.css === css);
-            
-                return `
+
+            const cssLinks = font.variants
+                .map(v => `
                     <div class="css-link">
-                        <code>https://necodemancer.github.io/fonts/${v.folder}/${css}</code>
+                        <code>https://necodemancer.github.io/fonts/${v.folder}/${v.css}</code>
                     </div>
-                `;
-            }).join('');
-    
+                `)
+                .join('');
+
             const defaultVariant = font.variants[0];
-    
+
             const seen = new Set();
-    
+
             const uniqueVariants = font.variants.filter(v => {
                 const key = `${v.weight}-${v.style}`;
                 if (seen.has(key)) return false;
                 seen.add(key);
                 return true;
             });
-    
-            const variantButtons = uniqueVariants.map(v => {
-                return `
-                    <button class="variant-btn"
-                        data-family="${font.family}"
-                        data-weight="${v.weight}"
-                        data-style="${v.style}">
-                        ${v.weight}${v.style === 'italic' ? ' italic' : ''}
-                    </button>
-                `;
-            }).join('');
-    
-            const licenseLabel = {
-                commercial: "Free for commercial use",
-                personal: "Free for personal use",
-                unknown: "Unknown license"
-            }[font.license] || "Unknown license";
-    
+
+            const variantButtons = uniqueVariants.map(v => `
+                <button class="variant-btn"
+                    data-family="${font.family}"
+                    data-weight="${v.weight}"
+                    data-style="${v.style}">
+                    ${v.weight}${v.style === 'italic' ? ' italic' : ''}
+                </button>
+            `).join('');
+
             container.insertAdjacentHTML('beforeend', `
                 <article class="font-card">
-    
+
                     <div class="font-header">
                         <div class="font-name">${font.family}</div>
                         <div class="license license-${font.license}">
-                            ${licenseLabel}
+                            ${licenseLabelMap[font.license] || licenseLabelMap.unknown}
                         </div>
                     </div>
-    
+
                     <div class="preview"
-                         data-family="${font.family}"
-                         style="font-family:'${font.family}';
-                                font-weight:${defaultVariant.weight};
-                                font-style:${defaultVariant.style};">
+                        data-family="${font.family}"
+                        style="font-family:'${font.family}';
+                               font-weight:${defaultVariant.weight};
+                               font-style:${defaultVariant.style};">
                         ${font.preview || 'The quick brown fox jumps over the lazy dog'}
                     </div>
-    
+
                     ${cssLinks}
-    
+
                     <div class="variant-controls">
                         ${variantButtons}
                     </div>
-    
+
                     <div class="meta">
                         ${tags}
                     </div>
-    
+
                     <div class="projects">
                         <b>Projects:</b> ${projects || 'No project uses this font'}.
                     </div>
-    
+
                 </article>
             `);
+
         });
-        
+
     });
 
     attachVariantEvents();
