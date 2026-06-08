@@ -64,49 +64,49 @@
       },
       {
         "name": "Akt",
-        "weight": "200",
+        "weight": "300",
         "style": "normal",
         "folder": "Akt",
         "css": "Akt.css"
       },
       {
         "name": "Akt",
-        "weight": "200",
+        "weight": "400",
         "style": "normal",
         "folder": "Akt",
         "css": "Akt.css"
       },
       {
         "name": "Akt",
-        "weight": "200",
+        "weight": "500",
         "style": "normal",
         "folder": "Akt",
         "css": "Akt.css"
       },
       {
         "name": "Akt",
-        "weight": "200",
+        "weight": "600",
         "style": "normal",
         "folder": "Akt",
         "css": "Akt.css"
       },
       {
         "name": "Akt",
-        "weight": "200",
+        "weight": "700",
         "style": "normal",
         "folder": "Akt",
         "css": "Akt.css"
       },
       {
         "name": "Akt",
-        "weight": "200",
+        "weight": "800",
         "style": "normal",
         "folder": "Akt",
         "css": "Akt.css"
       },
       {
         "name": "Akt",
-        "weight": "200",
+        "weight": "900",
         "style": "normal",
         "folder": "Akt",
         "css": "Akt.css"
@@ -178,37 +178,24 @@
       },
       {
         "name": "Arsenica",
-        "weight": "400",
-        "style": "normal",
+        "weight": "700",
+        "style": "italic",
         "folder": "Arsenica",
         "css": "arsenica.css"
       },
       {
         "name": "Arsenica",
-        "weight": "400",
-        "style": "normal",
-        "folder": "Arsenica",
-        "css": "arsenica.css"
-      },
-      {
-        "name": "Arsenica",
-        "weight": "400",
-        "style": "normal",
-        "folder": "Arsenica",
-        "css": "arsenica.css"
-      }
-    ]
-  },
-  {
-    "family": "Assets",
-    "license": "unknown",
-    "variants": [
-      {
-        "name": "Assets",
         "weight": "700",
         "style": "normal",
-        "folder": "assets",
-        "css": "index.css"
+        "folder": "Arsenica",
+        "css": "arsenica.css"
+      },
+      {
+        "name": "Arsenica",
+        "weight": "400",
+        "style": "italic",
+        "folder": "Arsenica",
+        "css": "arsenica.css"
       }
     ]
   },
@@ -239,7 +226,7 @@
       {
         "name": "Audex",
         "weight": "400",
-        "style": "normal",
+        "style": "italic",
         "folder": "audex",
         "css": "audex.css"
       }
@@ -324,7 +311,7 @@
       {
         "name": "Bentoga",
         "weight": "100",
-        "style": "italic",
+        "style": "normal",
         "folder": "bentoga",
         "css": "bentoga.css"
       }
@@ -382,14 +369,14 @@
       },
       {
         "name": "Bounded",
-        "weight": "200",
+        "weight": "400",
         "style": "normal",
         "folder": "bounded",
         "css": "bounded.css"
       },
       {
         "name": "Bounded",
-        "weight": "200",
+        "weight": "900",
         "style": "normal",
         "folder": "bounded",
         "css": "bounded.css"
@@ -402,7 +389,7 @@
     "variants": [
       {
         "name": "Brasilia",
-        "weight": "400",
+        "weight": "100",
         "style": "normal",
         "folder": "Brasilia",
         "css": "Brasilia.css"
@@ -481,21 +468,21 @@
       },
       {
         "name": "Butler",
-        "weight": "200",
+        "weight": "400",
         "style": "normal",
         "folder": "Butler",
         "css": "Butler.css"
       },
       {
         "name": "Butler",
-        "weight": "200",
+        "weight": "700",
         "style": "normal",
         "folder": "Butler",
         "css": "Butler.css"
       },
       {
         "name": "Butler",
-        "weight": "200",
+        "weight": "900",
         "style": "normal",
         "folder": "Butler",
         "css": "Butler.css"
@@ -515,21 +502,21 @@
       },
       {
         "name": "Butler Stencil",
-        "weight": "200",
+        "weight": "400",
         "style": "normal",
         "folder": "Butler",
         "css": "Butler.css"
       },
       {
         "name": "Butler Stencil",
-        "weight": "200",
+        "weight": "700",
         "style": "normal",
         "folder": "Butler",
         "css": "Butler.css"
       },
       {
         "name": "Butler Stencil",
-        "weight": "200",
+        "weight": "900",
         "style": "normal",
         "folder": "Butler",
         "css": "Butler.css"
@@ -550,7 +537,7 @@
       {
         "name": "California Sun",
         "weight": "400",
-        "style": "normal",
+        "style": "italic",
         "folder": "California Sun",
         "css": "californiasun.css"
       }
@@ -570,7 +557,7 @@
       {
         "name": "Calora",
         "weight": "400",
-        "style": "italic",
+        "style": "normal",
         "folder": "calora",
         "css": "calora.css"
       }
@@ -590,7 +577,7 @@
       {
         "name": "Calton Elegance Sans",
         "weight": "400",
-        "style": "normal",
+        "style": "italic",
         "folder": "Calton",
         "css": "CaltonEleganceSans.css"
       }
@@ -648,21 +635,21 @@
       },
       {
         "name": "Caslon Antique",
-        "weight": "400",
-        "style": "normal",
+        "weight": "700",
+        "style": "italic",
         "folder": "CaslonAntique",
         "css": "CaslonAntique.css"
       },
       {
         "name": "Caslon Antique",
         "weight": "400",
-        "style": "normal",
+        "style": "italic",
         "folder": "CaslonAntique",
         "css": "CaslonAntique.css"
       },
       {
         "name": "Caslon Antique",
-        "weight": "400",
+        "weight": "700",
         "style": "normal",
         "folder": "CaslonAntique",
         "css": "CaslonAntique.css"
@@ -721,42 +708,42 @@
       },
       {
         "name": "Kalnia",
-        "weight": "100",
+        "weight": "200",
         "style": "normal",
         "folder": "kalnia",
         "css": "kalnia.css"
       },
       {
         "name": "Kalnia",
-        "weight": "100",
+        "weight": "300",
         "style": "normal",
         "folder": "kalnia",
         "css": "kalnia.css"
       },
       {
         "name": "Kalnia",
-        "weight": "100",
+        "weight": "400",
         "style": "normal",
         "folder": "kalnia",
         "css": "kalnia.css"
       },
       {
         "name": "Kalnia",
-        "weight": "100",
+        "weight": "500",
         "style": "normal",
         "folder": "kalnia",
         "css": "kalnia.css"
       },
       {
         "name": "Kalnia",
-        "weight": "100",
+        "weight": "600",
         "style": "normal",
         "folder": "kalnia",
         "css": "kalnia.css"
       },
       {
         "name": "Kalnia",
-        "weight": "100",
+        "weight": "700",
         "style": "normal",
         "folder": "kalnia",
         "css": "kalnia.css"
@@ -790,119 +777,119 @@
       {
         "name": "Neulis",
         "weight": "100",
+        "style": "italic",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "200",
         "style": "normal",
         "folder": "neulis",
         "css": "neulis.css"
       },
       {
         "name": "Neulis",
-        "weight": "100",
+        "weight": "200",
+        "style": "italic",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "300",
         "style": "normal",
         "folder": "neulis",
         "css": "neulis.css"
       },
       {
         "name": "Neulis",
-        "weight": "100",
+        "weight": "300",
+        "style": "italic",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "400",
         "style": "normal",
         "folder": "neulis",
         "css": "neulis.css"
       },
       {
         "name": "Neulis",
-        "weight": "100",
+        "weight": "400",
+        "style": "italic",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "500",
         "style": "normal",
         "folder": "neulis",
         "css": "neulis.css"
       },
       {
         "name": "Neulis",
-        "weight": "100",
+        "weight": "500",
+        "style": "italic",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "600",
         "style": "normal",
         "folder": "neulis",
         "css": "neulis.css"
       },
       {
         "name": "Neulis",
-        "weight": "100",
+        "weight": "600",
+        "style": "italic",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "700",
         "style": "normal",
         "folder": "neulis",
         "css": "neulis.css"
       },
       {
         "name": "Neulis",
-        "weight": "100",
+        "weight": "700",
+        "style": "italic",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "800",
         "style": "normal",
         "folder": "neulis",
         "css": "neulis.css"
       },
       {
         "name": "Neulis",
-        "weight": "100",
+        "weight": "800",
+        "style": "italic",
+        "folder": "neulis",
+        "css": "neulis.css"
+      },
+      {
+        "name": "Neulis",
+        "weight": "900",
         "style": "normal",
         "folder": "neulis",
         "css": "neulis.css"
       },
       {
         "name": "Neulis",
-        "weight": "100",
-        "style": "normal",
-        "folder": "neulis",
-        "css": "neulis.css"
-      },
-      {
-        "name": "Neulis",
-        "weight": "100",
-        "style": "normal",
-        "folder": "neulis",
-        "css": "neulis.css"
-      },
-      {
-        "name": "Neulis",
-        "weight": "100",
-        "style": "normal",
-        "folder": "neulis",
-        "css": "neulis.css"
-      },
-      {
-        "name": "Neulis",
-        "weight": "100",
-        "style": "normal",
-        "folder": "neulis",
-        "css": "neulis.css"
-      },
-      {
-        "name": "Neulis",
-        "weight": "100",
-        "style": "normal",
-        "folder": "neulis",
-        "css": "neulis.css"
-      },
-      {
-        "name": "Neulis",
-        "weight": "100",
-        "style": "normal",
-        "folder": "neulis",
-        "css": "neulis.css"
-      },
-      {
-        "name": "Neulis",
-        "weight": "100",
-        "style": "normal",
-        "folder": "neulis",
-        "css": "neulis.css"
-      },
-      {
-        "name": "Neulis",
-        "weight": "100",
-        "style": "normal",
-        "folder": "neulis",
-        "css": "neulis.css"
-      },
-      {
-        "name": "Neulis",
-        "weight": "100",
-        "style": "normal",
+        "weight": "900",
+        "style": "italic",
         "folder": "neulis",
         "css": "neulis.css"
       }
