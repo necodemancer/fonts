@@ -10,7 +10,7 @@ fetch('./catalog.json')
         catalog = data;
 
         loadFonts(data);
-        render(data);
+        render(groupByLicense(data));
 
         search.addEventListener('input', () => {
 
@@ -54,10 +54,27 @@ function loadFonts(fonts) {
     });
 }
 
-function render(fonts) {
+function groupByLicense(fonts) {
+    return fonts.reduce((acc, font) => {
+
+        const key = font.license || 'unknown';
+
+        if (!acc[key]) acc[key] = [];
+        acc[key].push(font);
+
+        return acc;
+
+    }, {});
+}
+
+function render(groupedFonts) {
     container.innerHTML = '';
 
-    fonts.forEach(font => {
+    container.insertAdjacentHTML('beforeend', `
+        <h2 class="license-section">${license}</h2>
+    `);
+
+    Object.entries(groupedFonts).forEach(([license, fonts]) => {
 
         const tags = (font.tags || [])
             .map(t => `<span class="tag">${t}</span>`)
