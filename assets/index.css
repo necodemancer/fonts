@@ -119,3 +119,10 @@ body {
 .license-commercial { color: #6ee7b7; }
 .license-personal { color: #fbbf24; }
 .license-unknown { color: #9ca3af; }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
