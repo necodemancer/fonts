@@ -13,17 +13,22 @@ ROOT = BASE_DIR
 # HELPERS
 # ----------------------------
 
-def extract_font_families(css_text):
-    # captures: font-family: 'Name';
-    return re.findall(r"font-family\s*:\s*['\"]([^'\"]+)['\"]", css_text)
+def extract_font_faces(css_text):
+    """Extract full @font-face blocks"""
+    return re.findall(r"@font-face\s*{[^}]+}", css_text, re.DOTALL)
 
 
-def extract_font_weights(css_text):
-    return re.findall(r"font-weight\s*:\s*([^;]+)", css_text)
+def parse_font_face(block):
+    """Parse a single @font-face block"""
+    family = re.search(r"font-family\s*:\s*['\"]([^'\"]+)['\"]", block)
+    weight = re.search(r"font-weight\s*:\s*([^;]+)", block)
+    style = re.search(r"font-style\s*:\s*([^;]+)", block)
 
-
-def extract_font_styles(css_text):
-    return re.findall(r"font-style\s*:\s*([^;]+)", css_text)
+    return {
+        "family": family.group(1) if family else None,
+        "weight": weight.group(1).strip() if weight else "400",
+        "style": style.group(1).strip() if style else "normal"
+    }
 
 
 def normalize_weight(w):
@@ -95,18 +100,22 @@ for folder in os.listdir(ROOT):
     with open(css_path, "r", encoding="utf-8") as f:
         css_text = f.read()
 
-    font_families = extract_font_families(css_text)
-    weights = extract_font_weights(css_text)
-    styles = extract_font_styles(css_text)
+    # ----------------------------
+    # FIXED: per @font-face parsing
+    # ----------------------------
+    faces = extract_font_faces(css_text)
 
-    # fallback
-    if not font_families:
-        font_families = [folder.replace("-", " ").title()]
+    if not faces:
+        continue
 
-    weight = normalize_weight(weights[0]) if weights else "400"
-    style = styles[0].strip() if styles else "normal"
+    for face in faces:
 
-    for fam in font_families:
+        data = parse_font_face(face)
+
+        if not data["family"]:
+            continue
+
+        fam = data["family"]
 
         group = families[fam]
         group["family"] = fam
@@ -114,8 +123,8 @@ for folder in os.listdir(ROOT):
 
         variant = {
             "name": fam,
-            "weight": weight,
-            "style": style,
+            "weight": normalize_weight(data["weight"]),
+            "style": data["style"],
             "folder": folder,
             "css": css_file
         }
