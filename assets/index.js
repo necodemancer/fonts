@@ -151,7 +151,7 @@ function render(groupedFonts) {
         
                 return `
                     <div class="css-link">
-                        <code>https://necodemancer.github.io/fonts/${v.folder}/${css}</code>
+                        <code><link rel="stylesheet" type="text/css" href="https://necodemancer.github.io/fonts/${v.folder}/${css}"/></code>
                     </div>
                 `;
             })
