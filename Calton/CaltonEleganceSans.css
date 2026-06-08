@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Calton Elegance Sans';
+    src: url('./CaltonEleganceSans.eot');
+    src: url('./CaltonEleganceSans.eot?#iefix') format('embedded-opentype'),
+         url('./CaltonEleganceSans.woff2') format('woff2'),
+         url('./CaltonEleganceSans.woff') format('woff'),
+         url('./CaltonEleganceSans.ttf') format('truetype'),
+         url('./CaltonEleganceSans.svg#CaltonEleganceSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Calton Elegance Sans';
+    src: url('./CaltonEleganceSans-Italic.eot');
+    src: url('./CaltonEleganceSans-Italic.eot?#iefix') format('embedded-opentype'),
+         url('./CaltonEleganceSans-Italic.woff2') format('woff2'),
+         url('./CaltonEleganceSans-Italic.woff') format('woff'),
+         url('./CaltonEleganceSans-Italic.ttf') format('truetype'),
+         url('./CaltonEleganceSans-Italic.svg#CaltonEleganceSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}

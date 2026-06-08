@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Butler';
+    src: url('./Butler-UltraLight.woff2') format('woff2'),
+         url('./Butler-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('./Butler.woff2') format('woff2'),
+         url('./Butler.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('./Butler-Bold.woff2') format('woff2'),
+         url('./Butler-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('./Butler-Black.woff2') format('woff2'),
+         url('./Butler-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler Stencil';
+    src: url('./ButlerStencil-UltraLight.woff2') format('woff2'),
+         url('./ButlerStencil-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler Stencil';
+    src: url('./ButlerStencil.woff2') format('woff2'),
+         url('./ButlerStencil.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler Stencil';
+    src: url('./ButlerStencil-Bold.woff2') format('woff2'),
+         url('./ButlerStencil-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler Stencil';
+    src: url('./ButlerStencil-Black.woff2') format('woff2'),
+         url('./ButlerStencil-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}

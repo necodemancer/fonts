@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Capo Decoro';
+    src: url('./capo_decoro.woff2') format('woff2'),
+        url('./capo_decoro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

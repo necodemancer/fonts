@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'California Sun';
+    src: url('./California-sun.woff2') format('woff2'),
+        url('./California-sun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'California Sun';
+    src: url('./California-sun-Italic.woff2') format('woff2'),
+        url('./California-sun-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}

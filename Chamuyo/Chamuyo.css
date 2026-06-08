@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Chamuyo';
+    src: url('./Chamuyo-Regular.woff2') format('woff2'),
+        url('./Chamuyo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

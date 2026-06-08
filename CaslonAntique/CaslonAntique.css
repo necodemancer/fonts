@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Caslon Antique';
+    src: url('./CaslonAntique.eot');
+    src: url('./CaslonAntique.eot?#iefix') format('embedded-opentype'),
+         url('./CaslonAntique.woff2') format('woff2'),
+         url('./CaslonAntique.woff') format('woff'),
+         url('./CaslonAntique.ttf') format('truetype'),
+         url('./CaslonAntique.svg#CaslonAntique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caslon Antique';
+    src: url('./CaslonAntique-BoldItalic.eot');
+    src: url('./CaslonAntique-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('./CaslonAntique-BoldItalic.woff2') format('woff2'),
+         url('./CaslonAntique-BoldItalic.woff') format('woff'),
+         url('./CaslonAntique-BoldItalic.ttf') format('truetype'),
+         url('./CaslonAntique-BoldItalic.svg#CaslonAntique-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caslon Antique';
+    src: url('./CaslonAntique-Italic.eot');
+    src: url('./CaslonAntique-Italic.eot?#iefix') format('embedded-opentype'),
+         url('./CaslonAntique-Italic.woff2') format('woff2'),
+         url('./CaslonAntique-Italic.woff') format('woff'),
+         url('./CaslonAntique-Italic.ttf') format('truetype'),
+         url('./CaslonAntique-Italic.svg#CaslonAntique-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caslon Antique';
+    src: url('./CaslonAntique-Bold.eot');
+    src: url('./CaslonAntique-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./CaslonAntique-Bold.woff2') format('woff2'),
+         url('./CaslonAntique-Bold.woff') format('woff'),
+         url('./CaslonAntique-Bold.ttf') format('truetype'),
+         url('./CaslonAntique-Bold.svg#CaslonAntique-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
