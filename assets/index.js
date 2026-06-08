@@ -35,15 +35,19 @@ function loadFonts(fonts) {
 
     fonts.forEach(font => {
 
-        const link = document.createElement('link');
+        font.variants.forEach(v => {
 
-        link.rel = 'stylesheet';
-        link.href = `./${font.folder}/${font.css}`;
+            const link = document.createElement('link');
 
-        document.head.appendChild(link);
+            link.rel = 'stylesheet';
+
+            // IMPORTANT: correct path rebuild
+            link.href = `./${v.folder}/${v.css}`;
+
+            document.head.appendChild(link);
+        });
 
     });
-
 }
 
 function render(fonts) {
@@ -57,7 +61,7 @@ function render(fonts) {
 
         const variantsHtml = font.variants.map(v => {
 
-            const cssUrl = `./${v.folder}/${v.css}`;
+            const cssUrl = `https://necodemancer.github.io/fonts/${v.folder}/${v.css}`;
 
             return `
                 <div class="variant">
@@ -69,8 +73,9 @@ function render(fonts) {
                         style="font-family:'${font.family}'">
                         ${font.preview || 'The quick brown fox jumps over the lazy dog'}
                     </div>
-
-                    <code>${cssUrl}</code>
+                    <div class="css-link">
+                        <code>${cssUrl}</code>
+                    </div>
                 </div>
             `;
         }).join('');
