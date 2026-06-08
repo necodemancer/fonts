@@ -59,24 +59,16 @@ function render(fonts) {
             .map(t => `<span class="tag">${t}</span>`)
             .join('');
 
-        const variantsHtml = font.variants.map(v => {
+        const defaultVariant = font.variants[0];
 
-            const cssUrl = `https://necodemancer.github.io/fonts/${v.folder}/${v.css}`;
-
+        const variantButtons = font.variants.map((v, i) => {
             return `
-                <div class="variant">
-                    <div class="variant-meta">
-                        <strong>${v.weight} / ${v.style}</strong>
-                    </div>
-
-                    <div class="preview"
-                        style="font-family:'${font.family}'">
-                        ${font.preview || 'The quick brown fox jumps over the lazy dog'}
-                    </div>
-                    <div class="css-link">
-                        <code>${cssUrl}</code>
-                    </div>
-                </div>
+                <button class="variant-btn"
+                    data-family="${font.family}"
+                    data-weight="${v.weight}"
+                    data-style="${v.style}">
+                    ${v.weight}${v.style === 'italic' ? ' italic' : ''}
+                </button>
             `;
         }).join('');
 
@@ -88,7 +80,17 @@ function render(fonts) {
                     <div class="license">${font.license || 'unknown'}</div>
                 </div>
 
-                ${variantsHtml}
+                <div class="preview"
+                     data-family="${font.family}"
+                     style="font-family:'${font.family}';
+                            font-weight:${defaultVariant.weight};
+                            font-style:${defaultVariant.style};">
+                    ${font.preview || 'The quick brown fox jumps over the lazy dog'}
+                </div>
+
+                <div class="variant-controls">
+                    ${variantButtons}
+                </div>
 
                 <div class="meta">
                     ${tags}
@@ -96,5 +98,31 @@ function render(fonts) {
 
             </article>
         `);
+    });
+
+    attachVariantEvents();
+}
+
+function attachVariantEvents() {
+
+    document.querySelectorAll('.variant-btn').forEach(btn => {
+
+        btn.addEventListener('click', () => {
+
+            const family = btn.dataset.family;
+            const weight = btn.dataset.weight;
+            const style = btn.dataset.style;
+
+            const preview = document.querySelector(
+                `.preview[data-family="${family}"]`
+            );
+
+            if (!preview) return;
+
+            preview.style.fontWeight = weight;
+            preview.style.fontStyle = style;
+
+        });
+
     });
 }
