@@ -214,8 +214,12 @@ h2 {
   content:'(Comisión)';
 }
 
-:is([data-project="Finite Incantatem"])::after {
+:is([data-project="Blood upon the Snow"], [data-project="Finite Incantatem"], [data-project="Erelan"], [data-project="Violent Ends"], [data-project="Stereo Hearts"], [data-project="Elysium"], [data-project="Dark Souls"], [data-project="Champagne Problems"], [data-project="New Spring"], [data-project="Gueule du Loup"], [data-project="Appare Vestigium"], [data-project="Glass"])::after {
   content:'(Payhip)';
+}
+
+[data-project="Tablillas"]::after {
+content:'';
 }
 
 @media (min-width: 900px) {
