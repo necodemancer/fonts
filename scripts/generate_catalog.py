@@ -104,23 +104,30 @@ for folder in os.listdir(ROOT):
     # FIXED: per @font-face parsing
     # ----------------------------
     faces = extract_font_faces(css_text)
-
+    
     if not faces:
         continue
-
+    
     for face in faces:
-
+    
         data = parse_font_face(face)
-
+    
         if not data["family"]:
             continue
-
+    
         fam = data["family"]
-
+    
         group = families[fam]
+    
         group["family"] = fam
         group["license"] = license_type
-
+    
+        # ---------------------------------
+        # FIX: attach metadata (tags/projects)
+        # ---------------------------------
+        group["tags"] = meta.get("tags", [])
+        group["projects"] = meta.get("projects", [])
+    
         variant = {
             "name": fam,
             "weight": normalize_weight(data["weight"]),
@@ -128,7 +135,7 @@ for folder in os.listdir(ROOT):
             "folder": folder,
             "css": css_file
         }
-
+    
         group["variants"].append(variant)
 
 # ----------------------------
