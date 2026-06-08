@@ -19,6 +19,15 @@ body {
     margin-bottom: 15px;
 }
 
+/* MAIN WRAPPER */
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+/* SEARCH BAR */
 #search {
     width: 100%;
     max-width: 500px;
@@ -26,6 +35,66 @@ body {
     border: 1px solid #333;
     background: #1b1b1b;
     color: #fff;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* FILTER CONTAINER (tags + projects area) */
+#filters {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+/* EACH FILTER BLOCK */
+.filter-block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* HEADERS INSIDE FILTERS */
+.filter-block h3 {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+/* BUTTON WRAPS */
+.filter-block div,
+.filter-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+/* FILTER BUTTONS */
+.tag-filter,
+.project-filter {
+    padding: 6px 10px;
+    border: 1px solid #333;
+    background: #1b1b1b;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: 0.2s;
+}
+
+.tag-filter:hover,
+.project-filter:hover {
+    background: #2a2a2a;
+    border-color: #555;
+}
+
+/* ACTIVE STATE (you’ll love this later) */
+.tag-filter.active,
+.project-filter.active {
+    background: #ffffff;
+    color: #000;
+    border-color: #fff;
 }
 
 .fonts {
@@ -121,8 +190,38 @@ body {
 
 .footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction:column;
+    gap: 10px;
     margin-top:15px;
+}
+
+@media (min-width: 900px) {
+
+    .fonts {
+        grid-template-columns:repeat(2, 1fr);
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction:row;
+        gap:15px;
+    }
+    
+    .controls {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    #search {
+        flex: 0 0 300px;
+    }
+
+    #filters {
+        flex: 1;
+    }
 }
