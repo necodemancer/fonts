@@ -76,8 +76,13 @@
   },
   {
     "family": "Akt",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "sans-serif",
+      "basic",
+      "modern",
+      "corporate"
+    ],
     "projects": [],
     "variants": [
       {
