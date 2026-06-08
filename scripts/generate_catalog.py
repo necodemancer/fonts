@@ -94,6 +94,8 @@ for folder in os.listdir(ROOT):
             with open(info_path, "r", encoding="utf-8") as f:
                 meta = json.load(f)
                 license_type = meta.get("license", "unknown")
+                tags = meta.get("tags", [])
+                projects = meta.get("projects", [])
         except Exception:
             pass
 
