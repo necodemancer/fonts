@@ -100,13 +100,18 @@ function render(groupedFonts) {
                 .map(p => `<span class="project">${p}</span>`)
                 .join(', ');
 
-            const cssLinks = font.variants
-                .map(v => `
+            const cssLinks = [...new Set(font.variants.map(v => v.css))]
+            .map(css => {
+        
+                const v = font.variants.find(x => x.css === css);
+        
+                return `
                     <div class="css-link">
-                        <code>https://necodemancer.github.io/fonts/${v.folder}/${v.css}</code>
+                        <code>https://necodemancer.github.io/fonts/${v.folder}/${css}</code>
                     </div>
-                `)
-                .join('');
+                `;
+            })
+            .join('');
 
             const defaultVariant = font.variants[0];
 
