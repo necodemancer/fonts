@@ -38,8 +38,12 @@
   },
   {
     "family": "Adogare",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "serif",
+      "elegant",
+      "fashion"
+    ],
     "projects": [],
     "variants": [
       {
