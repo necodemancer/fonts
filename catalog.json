@@ -494,8 +494,12 @@
   },
   {
     "family": "Bigfat gothic",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "serif",
+      "gothic",
+      "vintage"
+    ],
     "projects": [],
     "variants": [
       {
