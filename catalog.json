@@ -1712,6 +1712,25 @@
     ]
   },
   {
+    "family": "Vixa",
+    "license": "commercial",
+    "tags": [
+      "serif",
+      "fantasy",
+      "decorative"
+    ],
+    "projects": [],
+    "variants": [
+      {
+        "name": "Vixa",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Vixa",
+        "css": "Vixa.css"
+      }
+    ]
+  },
+  {
     "family": "Westminster",
     "license": "personal",
     "tags": [
