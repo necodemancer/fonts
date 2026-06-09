@@ -930,8 +930,12 @@
   },
   {
     "family": "Chamuyo",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "serif",
+      "fashion",
+      "playful"
+    ],
     "projects": [],
     "variants": [
       {
