@@ -428,8 +428,13 @@
   },
   {
     "family": "Baunk",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "sans-serif",
+      "modern",
+      "futuristic",
+      "geometrical"
+    ],
     "projects": [],
     "variants": [
       {
