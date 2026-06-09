@@ -263,8 +263,12 @@
   },
   {
     "family": "Arsenica",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "serif",
+      "contemporary",
+      "elegant"
+    ],
     "projects": [],
     "variants": [
       {
