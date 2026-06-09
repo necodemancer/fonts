@@ -751,8 +751,12 @@
   },
   {
     "family": "California Sun",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "serif",
+      "gothic",
+      "vintage"
+    ],
     "projects": [],
     "variants": [
       {
