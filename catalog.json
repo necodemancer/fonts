@@ -565,8 +565,13 @@
   },
   {
     "family": "Brasilia",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "sans-serif",
+      "modern",
+      "grotesque",
+      "condensed"
+    ],
     "projects": [],
     "variants": [
       {
@@ -587,8 +592,13 @@
   },
   {
     "family": "Brasilia Extended",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "sans-serif",
+      "modern",
+      "grotesque",
+      "condensed"
+    ],
     "projects": [],
     "variants": [
       {
@@ -602,8 +612,13 @@
   },
   {
     "family": "Brasilia Short",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "sans-serif",
+      "modern",
+      "grotesque",
+      "condensed"
+    ],
     "projects": [],
     "variants": [
       {
@@ -617,8 +632,13 @@
   },
   {
     "family": "Brasilia Short II",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "sans-serif",
+      "modern",
+      "grotesque",
+      "condensed"
+    ],
     "projects": [],
     "variants": [
       {
