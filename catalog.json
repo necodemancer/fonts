@@ -532,8 +532,12 @@
   },
   {
     "family": "Bounded",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "sans-serif",
+      "corporate",
+      "modern"
+    ],
     "projects": [],
     "variants": [
       {
