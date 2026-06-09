@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Lettertype';
+    src: url('./Lettertype-Regular.woff2') format('woff2'),
+         url('./Lettertype-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lettertype';
+    src: url('./Lettertype-SemiBold.woff2') format('woff2'),
+         url('./Lettertype-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lettertype';
+    src: url('./Lettertype-Italic.woff2') format('woff2'),
+         url('./Lettertype-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lettertype';
+    src: url('./Lettertype-Bold.woff2') format('woff2'),
+         url('./Lettertype-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lettertype';
+    src: url('./Lettertype-BoldItalic.woff2') format('woff2'),
+         url('./Lettertype-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lettertype';
+    src: url('./Lettertype-SemiBoldItalic.woff2') format('woff2'),
+         url('./Lettertype-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
