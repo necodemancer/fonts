@@ -1290,6 +1290,32 @@
     ]
   },
   {
+    "family": "Rachel",
+    "license": "commercial",
+    "tags": [
+      "serif",
+      "elegant",
+      "fashion"
+    ],
+    "projects": [],
+    "variants": [
+      {
+        "name": "Rachel",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Rachel",
+        "css": "Rachel.css"
+      },
+      {
+        "name": "Rachel",
+        "weight": "400",
+        "style": "italic",
+        "folder": "Rachel",
+        "css": "Rachel.css"
+      }
+    ]
+  },
+  {
     "family": "Stretch Pro",
     "license": "personal",
     "tags": [
