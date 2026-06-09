@@ -1076,8 +1076,13 @@
   },
   {
     "family": "Neulis",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "sans-serif",
+      "corporate",
+      "modern",
+      "basic"
+    ],
     "projects": [],
     "variants": [
       {
