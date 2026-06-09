@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'santa fe spring tail';
+    src: url('./santa_fe_spring_tail.woff2') format('woff2'),
+         url('./santa_fe_spring_tail.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'santa fe spring';
+    src: url('./santa_fe_spring.woff2') format('woff2'),
+         url('./santa_fe_spring.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
