@@ -830,8 +830,13 @@
   },
   {
     "family": "Capo Decoro",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "serif",
+      "vintage",
+      "decorative",
+      "gothic"
+    ],
     "projects": [],
     "variants": [
       {
