@@ -970,6 +970,28 @@
     ]
   },
   {
+    "family": "Emrys",
+    "license": "personal",
+    "tags": [
+      "serif",
+      "elegant",
+      "contemporary",
+      "fashion"
+    ],
+    "projects": [
+      "Stereo Hearts"
+    ],
+    "variants": [
+      {
+        "name": "Emrys",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Emrys",
+        "css": "EmrysRegular.css"
+      }
+    ]
+  },
+  {
     "family": "Etude Noire",
     "license": "commercial",
     "tags": [
