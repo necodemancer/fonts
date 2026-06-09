@@ -970,6 +970,56 @@
     ]
   },
   {
+    "family": "Devil Breeze",
+    "license": "personal",
+    "tags": [
+      "sans-serif",
+      "futuristic",
+      "geometric",
+      "modern"
+    ],
+    "projects": [
+      "Gueule du Loup"
+    ],
+    "variants": [
+      {
+        "name": "Devil Breeze",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Devil Breeze",
+        "css": "devilbreeze.css"
+      },
+      {
+        "name": "Devil Breeze",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Devil Breeze",
+        "css": "devilbreeze.css"
+      },
+      {
+        "name": "Devil Breeze",
+        "weight": "600",
+        "style": "normal",
+        "folder": "Devil Breeze",
+        "css": "devilbreeze.css"
+      },
+      {
+        "name": "Devil Breeze",
+        "weight": "700",
+        "style": "normal",
+        "folder": "Devil Breeze",
+        "css": "devilbreeze.css"
+      },
+      {
+        "name": "Devil Breeze",
+        "weight": "900",
+        "style": "normal",
+        "folder": "Devil Breeze",
+        "css": "devilbreeze.css"
+      }
+    ]
+  },
+  {
     "family": "Emrys",
     "license": "personal",
     "tags": [
