@@ -949,9 +949,16 @@
   },
   {
     "family": "Clash Display",
-    "license": "unknown",
-    "tags": [],
-    "projects": [],
+    "license": "commercial",
+    "tags": [
+      "sans-serif",
+      "bold",
+      "basic",
+      "corporate"
+    ],
+    "projects": [
+      "SK04261"
+    ],
     "variants": [
       {
         "name": "Clash Display",
