@@ -777,8 +777,13 @@
   },
   {
     "family": "Calora",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "sans-serif",
+      "contemporary",
+      "fashion",
+      "playful"
+    ],
     "projects": [],
     "variants": [
       {
