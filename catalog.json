@@ -165,7 +165,11 @@
   {
     "family": "Andes",
     "license": "unknown",
-    "tags": [],
+    "tags": [
+      "sans-serif",
+      "vintage",
+      "elegant"
+    ],
     "projects": [],
     "variants": [
       {
