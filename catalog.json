@@ -1215,8 +1215,13 @@
   },
   {
     "family": "Stretch Pro",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "sans-serif",
+      "modern",
+      "geometrical",
+      "futuristic"
+    ],
     "projects": [],
     "variants": [
       {
