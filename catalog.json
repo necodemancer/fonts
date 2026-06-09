@@ -1256,8 +1256,12 @@
   },
   {
     "family": "Vintage Mohai - Demo Version",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "serif",
+      "gothic",
+      "bold"
+    ],
     "projects": [],
     "variants": [
       {
