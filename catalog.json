@@ -671,8 +671,12 @@
   },
   {
     "family": "Butler",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "serif",
+      "fancy",
+      "classy"
+    ],
     "projects": [],
     "variants": [
       {
@@ -707,8 +711,12 @@
   },
   {
     "family": "Butler Stencil",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "serif",
+      "fancy",
+      "classy"
+    ],
     "projects": [],
     "variants": [
       {
