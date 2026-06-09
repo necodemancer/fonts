@@ -1297,6 +1297,27 @@
     ]
   },
   {
+    "family": "Lordish",
+    "license": "personal",
+    "tags": [
+      "serif",
+      "gothic",
+      "vintage"
+    ],
+    "projects": [
+      "Violent Ends"
+    ],
+    "variants": [
+      {
+        "name": "Lordish",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Lordish",
+        "css": "Lordish.css"
+      }
+    ]
+  },
+  {
     "family": "Neulis",
     "license": "personal",
     "tags": [
