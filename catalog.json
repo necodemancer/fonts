@@ -370,8 +370,12 @@
   },
   {
     "family": "AveburyW01",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "serif",
+      "gothic",
+      "vintage"
+    ],
     "projects": [],
     "variants": [
       {
