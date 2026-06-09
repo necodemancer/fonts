@@ -1549,6 +1549,26 @@
     ]
   },
   {
+    "family": "Pistilli",
+    "license": "commercial",
+    "tags": [
+      "serif",
+      "elegant",
+      "contemporary",
+      "fashion"
+    ],
+    "projects": [],
+    "variants": [
+      {
+        "name": "Pistilli",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Pistilli",
+        "css": "Pistilli.css"
+      }
+    ]
+  },
+  {
     "family": "Rachel",
     "license": "commercial",
     "tags": [
