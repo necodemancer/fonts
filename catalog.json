@@ -323,8 +323,13 @@
   },
   {
     "family": "Audex",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "sans-serif",
+      "futuristic",
+      "modern",
+      "geometric"
+    ],
     "projects": [],
     "variants": [
       {
