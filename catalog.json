@@ -1595,6 +1595,44 @@
     ]
   },
   {
+    "family": "santa fe spring",
+    "license": "personal",
+    "tags": [
+      "script",
+      "elegant",
+      "playful"
+    ],
+    "projects": [],
+    "variants": [
+      {
+        "name": "santa fe spring",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Santa Fe Spring",
+        "css": "santa_fe_spring.css"
+      }
+    ]
+  },
+  {
+    "family": "santa fe spring tail",
+    "license": "personal",
+    "tags": [
+      "script",
+      "elegant",
+      "playful"
+    ],
+    "projects": [],
+    "variants": [
+      {
+        "name": "santa fe spring tail",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Santa Fe Spring",
+        "css": "santa_fe_spring.css"
+      }
+    ]
+  },
+  {
     "family": "Stretch Pro",
     "license": "personal",
     "tags": [
