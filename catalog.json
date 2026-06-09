@@ -145,8 +145,12 @@
   },
   {
     "family": "Al Ragas",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "serif",
+      "contemporary",
+      "elegant"
+    ],
     "projects": [],
     "variants": [
       {
