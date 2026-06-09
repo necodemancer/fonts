@@ -1,0 +1,30 @@
+﻿@font-face {
+font-family: "Devil Breeze";
+font-weight:200;
+src: url('./Devil Breeze Light.ttf');
+format("truetype");
+}
+@font-face {
+font-family: "Devil Breeze";
+font-weight:400;
+src: url('./Devil Breeze Book.ttf');
+format("truetype");
+}
+@font-face {
+font-family: "Devil Breeze";
+font-weight:600;
+src: url('./Devil Breeze Medium.ttf');
+format("truetype");
+}
+@font-face {
+font-family: "Devil Breeze";
+font-weight:700;
+src: url('./Devil Breeze Demi.ttf');
+format("truetype");
+}
+@font-face {
+font-family: "Devil Breeze";
+font-weight:900;
+src: url('./Devil Breeze Bold.ttf');
+format("truetype");
+}
