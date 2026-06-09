@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Lordish';
+    src: url('./Lordish-Regular.eot');
+    src: url('./Lordish-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./Lordish-Regular.woff2') format('woff2'),
+        url('./Lordish-Regular.woff') format('woff'),
+        url('./Lordish-Regular.ttf') format('truetype'),
+        url('./Lordish-Regular.svg#Lordish-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
