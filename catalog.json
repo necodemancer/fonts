@@ -1633,5 +1633,26 @@
         "css": "vintagemohai.css"
       }
     ]
+  },
+  {
+    "family": "Westminster",
+    "license": "personal",
+    "tags": [
+      "serif",
+      "gothic",
+      "vintage"
+    ],
+    "projects": [
+      "Appare Vestigium"
+    ],
+    "variants": [
+      {
+        "name": "Westminster",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Westminster",
+        "css": "Westminster.css"
+      }
+    ]
   }
 ]
