@@ -652,8 +652,12 @@
   },
   {
     "family": "Bungasai",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "script",
+      "cursive",
+      "elegant"
+    ],
     "projects": [],
     "variants": [
       {
