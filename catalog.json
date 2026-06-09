@@ -804,8 +804,12 @@
   },
   {
     "family": "Calton Elegance Sans",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "sans-serif",
+      "vintage",
+      "fashion"
+    ],
     "projects": [],
     "variants": [
       {
