@@ -225,8 +225,12 @@
   },
   {
     "family": "AromaticDream-Regular",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "serif",
+      "vintage",
+      "fashion"
+    ],
     "projects": [],
     "variants": [
       {
@@ -240,8 +244,12 @@
   },
   {
     "family": "AromaticDream-Slanted",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "serif",
+      "vintage",
+      "fashion"
+    ],
     "projects": [],
     "variants": [
       {
