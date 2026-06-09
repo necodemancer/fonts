@@ -350,8 +350,13 @@
   },
   {
     "family": "Autobahn",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "sans-serif",
+      "futuristic",
+      "modern",
+      "geometric"
+    ],
     "projects": [],
     "variants": [
       {
