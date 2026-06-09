@@ -1270,6 +1270,26 @@
     ]
   },
   {
+    "family": "Parkinsans",
+    "license": "commercial",
+    "tags": [
+      "sans-serif",
+      "corporate",
+      "playful",
+      "basic"
+    ],
+    "projects": [],
+    "variants": [
+      {
+        "name": "Parkinsans",
+        "weight": "100 900",
+        "style": "normal",
+        "folder": "Parkinsans",
+        "css": "Parkinsans.css"
+      }
+    ]
+  },
+  {
     "family": "Stretch Pro",
     "license": "personal",
     "tags": [
