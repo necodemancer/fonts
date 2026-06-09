@@ -1012,6 +1012,130 @@
     ]
   },
   {
+    "family": "Helvetica Neue",
+    "license": "personal",
+    "tags": [
+      "sans-serif",
+      "basic",
+      "corporate"
+    ],
+    "projects": [],
+    "variants": [
+      {
+        "name": "Helvetica Neue",
+        "weight": "500",
+        "style": "italic",
+        "folder": "Helvetica Neue",
+        "css": "Helvetica Neue.css"
+      },
+      {
+        "name": "Helvetica Neue",
+        "weight": "100",
+        "style": "italic",
+        "folder": "Helvetica Neue",
+        "css": "Helvetica Neue.css"
+      },
+      {
+        "name": "Helvetica Neue",
+        "weight": "100",
+        "style": "normal",
+        "folder": "Helvetica Neue",
+        "css": "Helvetica Neue.css"
+      },
+      {
+        "name": "Helvetica Neue",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Helvetica Neue",
+        "css": "Helvetica Neue.css"
+      },
+      {
+        "name": "Helvetica Neue",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Helvetica Neue",
+        "css": "Helvetica Neue.css"
+      },
+      {
+        "name": "Helvetica Neue",
+        "weight": "200",
+        "style": "italic",
+        "folder": "Helvetica Neue",
+        "css": "Helvetica Neue.css"
+      },
+      {
+        "name": "Helvetica Neue",
+        "weight": "900",
+        "style": "normal",
+        "folder": "Helvetica Neue",
+        "css": "Helvetica Neue.css"
+      },
+      {
+        "name": "Helvetica Neue",
+        "weight": "700",
+        "style": "normal",
+        "folder": "Helvetica Neue",
+        "css": "Helvetica Neue.css"
+      },
+      {
+        "name": "Helvetica Neue",
+        "weight": "900",
+        "style": "italic",
+        "folder": "Helvetica Neue",
+        "css": "Helvetica Neue.css"
+      },
+      {
+        "name": "Helvetica Neue",
+        "weight": "700",
+        "style": "italic",
+        "folder": "Helvetica Neue",
+        "css": "Helvetica Neue.css"
+      },
+      {
+        "name": "Helvetica Neue",
+        "weight": "300",
+        "style": "normal",
+        "folder": "Helvetica Neue",
+        "css": "Helvetica Neue.css"
+      },
+      {
+        "name": "Helvetica Neue",
+        "weight": "500",
+        "style": "normal",
+        "folder": "Helvetica Neue",
+        "css": "Helvetica Neue.css"
+      },
+      {
+        "name": "Helvetica Neue",
+        "weight": "800",
+        "style": "italic",
+        "folder": "Helvetica Neue",
+        "css": "Helvetica Neue.css"
+      },
+      {
+        "name": "Helvetica Neue",
+        "weight": "400",
+        "style": "italic",
+        "folder": "Helvetica Neue",
+        "css": "Helvetica Neue.css"
+      },
+      {
+        "name": "Helvetica Neue",
+        "weight": "800",
+        "style": "normal",
+        "folder": "Helvetica Neue",
+        "css": "Helvetica Neue.css"
+      },
+      {
+        "name": "Helvetica Neue",
+        "weight": "300",
+        "style": "italic",
+        "folder": "Helvetica Neue",
+        "css": "Helvetica Neue.css"
+      }
+    ]
+  },
+  {
     "family": "ITC Avant Garde Gothic",
     "license": "personal",
     "tags": [
