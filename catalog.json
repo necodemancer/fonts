@@ -1054,6 +1054,62 @@
     ]
   },
   {
+    "family": "Lettertype",
+    "license": "personal",
+    "tags": [
+      "serif",
+      "elegant",
+      "fashion",
+      "vintage",
+      "condensed"
+    ],
+    "projects": [],
+    "variants": [
+      {
+        "name": "Lettertype",
+        "weight": "400",
+        "style": "normal",
+        "folder": "lettertype",
+        "css": "lettertype.css"
+      },
+      {
+        "name": "Lettertype",
+        "weight": "600",
+        "style": "normal",
+        "folder": "lettertype",
+        "css": "lettertype.css"
+      },
+      {
+        "name": "Lettertype",
+        "weight": "400",
+        "style": "italic",
+        "folder": "lettertype",
+        "css": "lettertype.css"
+      },
+      {
+        "name": "Lettertype",
+        "weight": "700",
+        "style": "normal",
+        "folder": "lettertype",
+        "css": "lettertype.css"
+      },
+      {
+        "name": "Lettertype",
+        "weight": "700",
+        "style": "italic",
+        "folder": "lettertype",
+        "css": "lettertype.css"
+      },
+      {
+        "name": "Lettertype",
+        "weight": "600",
+        "style": "italic",
+        "folder": "lettertype",
+        "css": "lettertype.css"
+      }
+    ]
+  },
+  {
     "family": "Lokampwow",
     "license": "commercial",
     "tags": [
