@@ -385,8 +385,12 @@
   },
   {
     "family": "Barloesius Schrift",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "serif",
+      "gothic",
+      "vintage"
+    ],
     "projects": [],
     "variants": [
       {
