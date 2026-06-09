@@ -1055,9 +1055,15 @@
   },
   {
     "family": "Lokampwow",
-    "license": "unknown",
-    "tags": [],
-    "projects": [],
+    "license": "commercial",
+    "tags": [
+      "serif",
+      "gothic",
+      "vintage"
+    ],
+    "projects": [
+      "Crónicas Vampíricas RPG"
+    ],
     "variants": [
       {
         "name": "Lokampwow",
