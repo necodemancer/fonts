@@ -207,7 +207,7 @@ h2 {
     align-items: flex-start;
     flex-direction:column;
     gap: 10px;
-    margin-top:15px;
+    margin-block:15px;
 }
 
 .project-filter::after {
