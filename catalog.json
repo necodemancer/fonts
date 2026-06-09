@@ -303,8 +303,13 @@
   },
   {
     "family": "Astral Mono",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "sans-serif",
+      "monospace",
+      "futuristic",
+      "modern"
+    ],
     "projects": [],
     "variants": [
       {
