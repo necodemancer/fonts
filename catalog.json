@@ -513,8 +513,12 @@
   },
   {
     "family": "Blackout",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "sans-serif",
+      "bold",
+      "geometrical"
+    ],
     "projects": [],
     "variants": [
       {
