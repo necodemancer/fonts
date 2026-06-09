@@ -400,8 +400,13 @@
   },
   {
     "family": "Basilisk Free",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "sans-serif",
+      "modern",
+      "futuristic",
+      "geometrical"
+    ],
     "projects": [],
     "variants": [
       {
