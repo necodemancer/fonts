@@ -448,8 +448,12 @@
   },
   {
     "family": "Bentoga",
-    "license": "unknown",
-    "tags": [],
+    "license": "commercial",
+    "tags": [
+      "serif",
+      "elegant",
+      "fashion"
+    ],
     "projects": [],
     "variants": [
       {
