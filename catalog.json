@@ -1235,9 +1235,15 @@
   },
   {
     "family": "Vandenbroucke Franck",
-    "license": "unknown",
-    "tags": [],
-    "projects": [],
+    "license": "commercial",
+    "tags": [
+      "serif",
+      "vintage",
+      "gothic"
+    ],
+    "projects": [
+      "Crónicas Vampíricas RPG"
+    ],
     "variants": [
       {
         "name": "Vandenbroucke Franck",
