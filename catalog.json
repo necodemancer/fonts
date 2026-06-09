@@ -1390,6 +1390,25 @@
     ]
   },
   {
+    "family": "Manufacturing Consent",
+    "license": "commercial",
+    "tags": [
+      "serif",
+      "gothic",
+      "vintage"
+    ],
+    "projects": [],
+    "variants": [
+      {
+        "name": "Manufacturing Consent",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Manufacturing Consent",
+        "css": "ManufacturingConsent.css"
+      }
+    ]
+  },
+  {
     "family": "Neulis",
     "license": "personal",
     "tags": [
