@@ -970,6 +970,48 @@
     ]
   },
   {
+    "family": "Etude Noire",
+    "license": "commercial",
+    "tags": [
+      "sans-serif",
+      "geometric",
+      "modern",
+      "futuristic",
+      "corporate"
+    ],
+    "projects": [],
+    "variants": [
+      {
+        "name": "Etude Noire",
+        "weight": "300",
+        "style": "normal",
+        "folder": "Etude Noire",
+        "css": "EtudeNoire.css"
+      },
+      {
+        "name": "Etude Noire",
+        "weight": "500",
+        "style": "normal",
+        "folder": "Etude Noire",
+        "css": "EtudeNoire.css"
+      },
+      {
+        "name": "Etude Noire",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Etude Noire",
+        "css": "EtudeNoire.css"
+      },
+      {
+        "name": "Etude Noire",
+        "weight": "700",
+        "style": "normal",
+        "folder": "Etude Noire",
+        "css": "EtudeNoire.css"
+      }
+    ]
+  },
+  {
     "family": "ITC Avant Garde Gothic",
     "license": "personal",
     "tags": [
