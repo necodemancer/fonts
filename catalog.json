@@ -971,8 +971,13 @@
   },
   {
     "family": "ITC Avant Garde Gothic",
-    "license": "unknown",
-    "tags": [],
+    "license": "personal",
+    "tags": [
+      "sans-serif",
+      "bold",
+      "basic",
+      "corporate"
+    ],
     "projects": [],
     "variants": [
       {
