@@ -1292,6 +1292,21 @@
     ]
   },
   {
+    "family": "Kita",
+    "license": "unknown",
+    "tags": [],
+    "projects": [],
+    "variants": [
+      {
+        "name": "Kita",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Kita",
+        "css": "Kita.css"
+      }
+    ]
+  },
+  {
     "family": "Lettertype",
     "license": "personal",
     "tags": [
