@@ -1208,6 +1208,82 @@
     ]
   },
   {
+    "family": "Humane",
+    "license": "commercial",
+    "tags": [
+      "sans-serif",
+      "futuristic",
+      "bold",
+      "condensed"
+    ],
+    "projects": [],
+    "variants": [
+      {
+        "name": "Humane",
+        "weight": "100",
+        "style": "normal",
+        "folder": "Humane",
+        "css": "Humane.css"
+      },
+      {
+        "name": "Humane",
+        "weight": "200",
+        "style": "normal",
+        "folder": "Humane",
+        "css": "Humane.css"
+      },
+      {
+        "name": "Humane",
+        "weight": "300",
+        "style": "normal",
+        "folder": "Humane",
+        "css": "Humane.css"
+      },
+      {
+        "name": "Humane",
+        "weight": "400",
+        "style": "normal",
+        "folder": "Humane",
+        "css": "Humane.css"
+      },
+      {
+        "name": "Humane",
+        "weight": "500",
+        "style": "normal",
+        "folder": "Humane",
+        "css": "Humane.css"
+      },
+      {
+        "name": "Humane",
+        "weight": "600",
+        "style": "normal",
+        "folder": "Humane",
+        "css": "Humane.css"
+      },
+      {
+        "name": "Humane",
+        "weight": "700",
+        "style": "normal",
+        "folder": "Humane",
+        "css": "Humane.css"
+      },
+      {
+        "name": "Humane",
+        "weight": "800",
+        "style": "normal",
+        "folder": "Humane",
+        "css": "Humane.css"
+      },
+      {
+        "name": "Humane",
+        "weight": "900",
+        "style": "normal",
+        "folder": "Humane",
+        "css": "Humane.css"
+      }
+    ]
+  },
+  {
     "family": "ITC Avant Garde Gothic",
     "license": "personal",
     "tags": [
