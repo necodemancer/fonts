@@ -1,0 +1,81 @@
+
+@font-face {
+    font-family: 'Humane';
+    src: url('./Humane-Thin.woff2') format('woff2'),
+        url('./Humane-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Humane';
+    src: url('./Humane-ExtraLight.woff2') format('woff2'),
+        url('./Humane-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Humane';
+    src: url('./Humane-Light.woff2') format('woff2'),
+        url('./Humane-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Humane';
+    src: url('./Humane-Regular.woff2') format('woff2'),
+        url('./Humane-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Humane';
+    src: url('./Humane-Medium.woff2') format('woff2'),
+        url('./Humane-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Humane';
+    src: url('./Humane-SemiBold.woff2') format('woff2'),
+        url('./Humane-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Humane';
+    src: url('./Humane-Bold.woff2') format('woff2'),
+        url('./Humane-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Humane';
+    src: url('./Humane-ExtraBold.woff2') format('woff2'),
+        url('./Humane-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Humane';
+    src: url('./Humane-Black.woff2') format('woff2'),
+        url('./Humane-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
